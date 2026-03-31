@@ -16,7 +16,7 @@ const OUTPUT_FILE = path.join(__dirname, 'states.json');
 const LOGIN_URL = 'https://bizee.tech/login';
 const BASE_URL = 'https://bizee.tech/resources-guide/?state=';
 
-const USERNAME = process.env.BIZEE_USERNAME || 'dbplus';
+const USERNAME = process.env.BIZEE_USERNAME || '';
 const PASSWORD = process.env.BIZEE_PASSWORD || '';
 
 function prompt(question) {
