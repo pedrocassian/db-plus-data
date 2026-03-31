@@ -1,0 +1,65 @@
+name: Scrape Resource Guide Data
+
+on:
+  schedule:
+    # Run daily at 6:00 AM UTC (1:00 AM EST / 10:00 PM PST)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore cookies
+        env:
+          BIZEE_COOKIES: ${{ secrets.BIZEE_COOKIES }}
+        run: |
+          if [ -n "$BIZEE_COOKIES" ]; then
+            echo "$BIZEE_COOKIES" > cookies.json
+            echo "Cookies restored from secret"
+          else
+            echo "No saved cookies found"
+          fi
+
+      - name: Run scraper
+        env:
+          BIZEE_USERNAME: ${{ secrets.BIZEE_USERNAME }}
+          BIZEE_PASSWORD: ${{ secrets.BIZEE_PASSWORD }}
+        run: node scrape.js
+
+      - name: Check output
+        run: |
+          if [ -f states.json ]; then
+            echo "states.json generated successfully"
+            echo "Size: $(wc -c < states.json) bytes"
+            echo "States: $(node -e "const d=require('./states.json'); console.log(d.stateCount)")"
+          else
+            echo "ERROR: states.json was not created"
+            exit 1
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "DB+ Scraper"
+          git config user.email "dbplus-scraper@users.noreply.github.com"
+          git add states.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update state data $(date -u +%Y-%m-%d)"
+            git push
+          fi

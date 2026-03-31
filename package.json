@@ -1,0 +1,12 @@
+{
+  "name": "db-plus-data",
+  "version": "1.0.0",
+  "description": "Daily scraper for DB+ resource guide state data",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "login": "node scrape.js --login"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
