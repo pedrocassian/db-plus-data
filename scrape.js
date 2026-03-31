@@ -54,18 +54,27 @@ async function login(page, interactive = false) {
     }
 
     // Fill login form
-    await page.waitForSelector('input[name="email"], input[name="username"], input[type="text"]', { timeout: 10000 });
-    const inputs = await page.$$('input[type="text"], input[name="email"], input[name="username"]');
-    if (inputs.length > 0) await inputs[0].type(USERNAME);
+    await page.waitForSelector('input[name="username"]', { timeout: 10000 });
+    console.log('Found username field, filling form...');
+    await page.type('input[name="username"]', USERNAME);
+    await page.type('input[name="password"]', PASSWORD);
 
-    const passwordInput = await page.$('input[type="password"]');
-    if (passwordInput) await passwordInput.type(PASSWORD);
+    // Debug: check what's on the page
+    const formDebug = await page.$$eval('button, input[type="submit"]', els => els.map(e => ({ tag: e.tagName, type: e.type, text: e.textContent.trim(), visible: e.offsetParent !== null })));
+    console.log('Buttons found:', JSON.stringify(formDebug));
 
-    // Click submit
-    const submitBtn = await page.$('button[type="submit"], input[type="submit"], .btn-primary');
-    if (submitBtn) await submitBtn.click();
-
+    // Click submit - try multiple selectors
+    const submitBtn = await page.$('button[type="submit"]') || await page.$('button.btn-success') || await page.$('button.btn');
+    if (!submitBtn) {
+        console.log('No submit button found, pressing Enter...');
+        await page.keyboard.press('Enter');
+    } else {
+        await submitBtn.click();
+    }
+    // Wait for page to change
     await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
+    // Extra settle time
+    await new Promise(r => setTimeout(r, 2000));
 
     // Check for verification code page
     const pageContent = await page.content();
@@ -79,24 +88,69 @@ async function login(page, interactive = false) {
 
         console.log('\n⚠️  Verification code required!');
         console.log('Check email for code from no-reply@incfile.com');
-        const code = await prompt('Enter verification code: ');
+        console.log('Current URL:', page.url());
 
-        const codeInput = await page.$('input[name="code"], input[name="verification_code"], input[type="text"], input[type="number"]');
-        if (codeInput) {
-            await codeInput.click({ clickCount: 3 }); // Select all
-            await codeInput.type(code.trim());
+        let code;
+        const isTTY = process.stdin.isTTY;
+        if (process.env.VERIFICATION_CODE) {
+            code = process.env.VERIFICATION_CODE;
+            console.log('Using verification code from environment variable');
+        } else if (!interactive || !isTTY) {
+            // In automated mode, wait up to 3 minutes checking for a code file
+            console.log('Waiting for verification code... Write it to verification-code.txt');
+            const codeFile = path.join(__dirname, 'verification-code.txt');
+            // Clean up any old code file
+            if (fs.existsSync(codeFile)) fs.unlinkSync(codeFile);
+            const maxWait = 180000; // 3 minutes
+            const start = Date.now();
+            while (Date.now() - start < maxWait) {
+                if (fs.existsSync(codeFile)) {
+                    code = fs.readFileSync(codeFile, 'utf8').trim();
+                    fs.unlinkSync(codeFile);
+                    break;
+                }
+                await new Promise(r => setTimeout(r, 2000));
+            }
+            if (!code) {
+                console.log('Timed out waiting for verification code');
+                return false;
+            }
+        } else {
+            code = await prompt('Enter verification code: ');
         }
 
-        const verifyBtn = await page.$('button[type="submit"], input[type="submit"], .btn-primary');
-        if (verifyBtn) await verifyBtn.click();
+        // Find the code input — could be various names
+        const codeInput = await page.$('input[name="2fa"], input[name="code"], input[name="verification_code"], input[name="otp"], input[type="text"]:not([name="username"]), input[type="number"]');
+        if (codeInput) {
+            await codeInput.click({ clickCount: 3 });
+            await codeInput.type(code.trim());
+        } else {
+            console.log('Could not find code input, trying all text inputs...');
+            const allInputs = await page.$$('input[type="text"]');
+            if (allInputs.length > 0) {
+                await allInputs[0].click({ clickCount: 3 });
+                await allInputs[0].type(code.trim());
+            }
+        }
 
-        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
+        // Click submit — try multiple selectors
+        const submitBtn = await page.$('button[type="submit"], input[type="submit"], button.btn, .btn-success, .btn-primary');
+        if (submitBtn) {
+            await Promise.all([
+                page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {}),
+                submitBtn.click()
+            ]);
+        } else {
+            console.log('Could not find submit button — pressing Enter');
+            await page.keyboard.press('Enter');
+            await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
+        }
     }
 
     // Check if login succeeded
     const finalUrl = page.url();
-    if (finalUrl.includes('/login')) {
-        console.log('Login failed — still on login page');
+    if (finalUrl.includes('/login') || finalUrl.includes('verif')) {
+        console.log('Login failed — still on login/verification page:', finalUrl);
         return false;
     }
 
