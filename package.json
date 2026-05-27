@@ -4,7 +4,8 @@
   "description": "Daily scraper for DB+ resource guide state data",
   "scripts": {
     "scrape": "node scrape.js",
-    "login": "node scrape.js --login"
+    "login": "node scrape.js --login",
+    "sync-obsidian": "node sync-obsidian.js"
   },
   "dependencies": {
     "puppeteer": "^23.0.0"

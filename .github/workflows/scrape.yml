@@ -1,10 +1,14 @@
 name: Scrape Resource Guide Data
 
 on:
-  schedule:
-    # Run daily at 6:00 AM UTC (1:00 AM EST / 10:00 PM PST)
-    - cron: '0 6 * * *'
-  workflow_dispatch: # Allow manual trigger
+  # Daily schedule disabled 2026-05-27: Bizee sessions expire ~every 3 days and
+  # require email 2FA, which GitHub Actions cannot complete. Scraping now runs via
+  # the local scheduled task. To re-enable, uncomment the cron below AND make sure
+  # the BIZEE_COOKIES secret holds a fresh (non-expired) session.
+  # schedule:
+  #   # Run daily at 6:00 AM UTC (1:00 AM EST / 10:00 PM PST)
+  #   - cron: '0 6 * * *'
+  workflow_dispatch: # Manual trigger (run after refreshing the BIZEE_COOKIES secret)
 
 permissions:
   contents: write
@@ -15,11 +19,11 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install dependencies
         run: npm ci

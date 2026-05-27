@@ -1,4 +1,5 @@
 node_modules/
 cookies.json
+verification-code.txt
 .claude/
 test-login.js

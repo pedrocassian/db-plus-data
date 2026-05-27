@@ -11,6 +11,16 @@ const STATES = [
     'SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC'
 ];
 
+// Optional Obsidian sync (local-only enhancement). Guarded so the scraper still
+// runs in CI / environments where sync-obsidian.js or an Obsidian vault is absent.
+let syncToObsidian = () => {};
+let OBSIDIAN_DIR = '';
+try {
+    ({ syncToObsidian, OBSIDIAN_DIR } = require('./sync-obsidian'));
+} catch (e) {
+    console.log('Obsidian sync module not available — skipping local sync');
+}
+
 const COOKIES_FILE = path.join(__dirname, 'cookies.json');
 const OUTPUT_FILE = path.join(__dirname, 'states.json');
 const LOGIN_URL = 'https://bizee.tech/login';
@@ -45,7 +55,7 @@ async function loadCookies(page) {
 
 async function login(page, interactive = false) {
     console.log('Navigating to login page...');
-    await page.goto(LOGIN_URL, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.goto(LOGIN_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
     // Check if already logged in (redirected away from login)
     if (!page.url().includes('/login')) {
@@ -72,7 +82,7 @@ async function login(page, interactive = false) {
         await submitBtn.click();
     }
     // Wait for page to change
-    await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
+    await page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 15000 }).catch(() => {});
     // Extra settle time
     await new Promise(r => setTimeout(r, 2000));
 
@@ -101,7 +111,7 @@ async function login(page, interactive = false) {
             const codeFile = path.join(__dirname, 'verification-code.txt');
             // Clean up any old code file
             if (fs.existsSync(codeFile)) fs.unlinkSync(codeFile);
-            const maxWait = 180000; // 3 minutes
+            const maxWait = 1800000; // 30 minutes
             const start = Date.now();
             while (Date.now() - start < maxWait) {
                 if (fs.existsSync(codeFile)) {
@@ -137,13 +147,13 @@ async function login(page, interactive = false) {
         const submitBtn = await page.$('button[type="submit"], input[type="submit"], button.btn, .btn-success, .btn-primary');
         if (submitBtn) {
             await Promise.all([
-                page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {}),
+                page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 15000 }).catch(() => {}),
                 submitBtn.click()
             ]);
         } else {
             console.log('Could not find submit button — pressing Enter');
             await page.keyboard.press('Enter');
-            await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
+            await page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 15000 }).catch(() => {});
         }
     }
 
@@ -373,7 +383,7 @@ async function scrapeAllStates(page) {
         console.log(`${progress} Scraping ${state}...`);
 
         try {
-            await page.goto(`${BASE_URL}${state}`, { waitUntil: 'networkidle2', timeout: 30000 });
+            await page.goto(`${BASE_URL}${state}`, { waitUntil: 'domcontentloaded', timeout: 45000 });
 
             // Check if we got redirected to login
             if (page.url().includes('/login')) {
@@ -384,8 +394,11 @@ async function scrapeAllStates(page) {
                     break;
                 }
                 await saveCookies(page);
-                await page.goto(`${BASE_URL}${state}`, { waitUntil: 'networkidle2', timeout: 30000 });
+                await page.goto(`${BASE_URL}${state}`, { waitUntil: 'domcontentloaded', timeout: 45000 });
             }
+
+            // Wait for the dynamic content tables to render
+            await page.waitForSelector('#state-filings-content table', { timeout: 20000 }).catch(() => {});
 
             // Check page has content
             const bodyLength = await page.evaluate(() => document.body.textContent.length);
@@ -411,7 +424,8 @@ async function scrapeAllStates(page) {
 
 async function main() {
     const isLoginMode = process.argv.includes('--login');
-    const isHeadless = !isLoginMode && !process.argv.includes('--headed');
+    // HEADLESS=1 forces headless even in login mode (useful for servers/CI with no display)
+    const isHeadless = process.env.HEADLESS === '1' || (!isLoginMode && !process.argv.includes('--headed'));
 
     console.log(`DB+ Data Scraper — ${isLoginMode ? 'Login Mode' : 'Scrape Mode'} (${isHeadless ? 'headless' : 'headed'})`);
 
@@ -431,7 +445,7 @@ async function main() {
         if (hasCookies) {
             // Test if cookies are still valid
             console.log('Testing saved session...');
-            await page.goto(`${BASE_URL}CA`, { waitUntil: 'networkidle2', timeout: 30000 });
+            await page.goto(`${BASE_URL}CA`, { waitUntil: 'domcontentloaded', timeout: 45000 });
 
             if (page.url().includes('/login')) {
                 console.log('Saved cookies expired — need to login');
@@ -467,20 +481,40 @@ async function main() {
         const { allData, failed } = await scrapeAllStates(page);
         const elapsed = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
 
-        // Build output
-        const output = {
-            lastUpdated: new Date().toISOString(),
-            stateCount: Object.keys(allData).length,
-            states: allData
-        };
+        // Check for changes against existing data
+        let dataChanged = true;
+        if (fs.existsSync(OUTPUT_FILE)) {
+            try {
+                const existing = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'));
+                dataChanged = JSON.stringify(existing.states) !== JSON.stringify(allData);
+            } catch (e) {
+                dataChanged = true;
+            }
+        }
 
-        fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
         console.log(`\nDone in ${elapsed} minutes`);
         console.log(`States scraped: ${Object.keys(allData).length}/${STATES.length}`);
         if (failed.length > 0) {
             console.log(`Failed: ${failed.join(', ')}`);
         }
-        console.log(`Output: ${OUTPUT_FILE}`);
+
+        if (dataChanged) {
+            const output = {
+                lastUpdated: new Date().toISOString(),
+                stateCount: Object.keys(allData).length,
+                states: allData
+            };
+            fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
+            console.log(`Output: ${OUTPUT_FILE}`);
+
+            // Sync to Obsidian if available
+            if (fs.existsSync(OBSIDIAN_DIR)) {
+                console.log('Data changed — syncing to Obsidian...');
+                syncToObsidian();
+            }
+        } else {
+            console.log('No data changes detected — skipping write and Obsidian sync');
+        }
 
     } catch (err) {
         console.error('Fatal error:', err);

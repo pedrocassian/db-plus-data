@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T21:23:51.635Z",
+  "lastUpdated": "2026-05-27T15:09:13.198Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -81,7 +81,7 @@
           "npc": "$28"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$100",
           "corp": "$100",
           "npc": "$100"
@@ -311,7 +311,7 @@
           "npc": "$10"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$100",
           "corp": "$100",
           "npc": "$25"
@@ -541,7 +541,7 @@
           "npc": "$47"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$47",
           "npc": "$10"
@@ -718,11 +718,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "6 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "3 Business Days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -771,7 +771,7 @@
           "npc": "$28"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$155",
           "corp": "$155",
           "npc": "$155"
@@ -853,7 +853,7 @@
         },
         "Reinstatement": {
           "llc": "YES",
-          "corp": "NO",
+          "corp": "YES",
           "npc": "NO"
         },
         "Dissolution": {
@@ -948,11 +948,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "4 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "6 Business Days"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -1001,7 +1001,7 @@
           "npc": "$5"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$25",
           "corp": "$25",
           "npc": "$25"
@@ -1231,7 +1231,7 @@
           "npc": "$0"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$25",
           "corp": "$25",
           "npc": "$25"
@@ -1408,7 +1408,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -1461,7 +1461,7 @@
           "npc": "$60"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$80",
           "corp": "$150",
           "npc": "$50"
@@ -1638,15 +1638,15 @@
       "formationTimes": {
         "LLC": {
           "normal": "6 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "13 Business Days"
         },
         "Corporations": {
           "normal": "6 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "12 Business Days"
         },
         "Nonprofit": {
           "normal": "6 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "12 Business Days"
         }
       },
       "companyAddress": {
@@ -1691,7 +1691,7 @@
           "npc": "$80"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$300",
           "corp": "$450",
           "npc": "$25"
@@ -1868,7 +1868,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "8 Business Days"
+          "expedited": "5 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -1921,7 +1921,7 @@
           "npc": "$10"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$139",
           "corp": "$150",
           "npc": "$61"
@@ -2004,7 +2004,7 @@
         "Reinstatement": {
           "llc": "YES",
           "corp": "YES",
-          "npc": "NO"
+          "npc": "YES"
         },
         "Dissolution": {
           "llc": "YES",
@@ -2151,7 +2151,7 @@
           "npc": "$20"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$60",
           "corp": "$60",
           "npc": "$40"
@@ -2234,7 +2234,7 @@
         "Reinstatement": {
           "llc": "YES",
           "corp": "YES",
-          "npc": "NO"
+          "npc": "YES"
         },
         "Dissolution": {
           "llc": "YES",
@@ -2327,16 +2327,16 @@
       },
       "formationTimes": {
         "LLC": {
-          "normal": "4 Weeks",
+          "normal": "6 Weeks",
           "expedited": "4 Business Days"
         },
         "Corporations": {
-          "normal": "4 Weeks",
+          "normal": "6 Weeks",
           "expedited": "4 Business Days"
         },
         "Nonprofit": {
-          "normal": "3 Weeks",
-          "expedited": "13 Business Days"
+          "normal": "5 Weeks",
+          "expedited": "12 Business Days"
         }
       },
       "companyAddress": {
@@ -2381,7 +2381,7 @@
           "npc": "$8"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$15",
           "corp": "$15",
           "npc": "$5"
@@ -2558,11 +2558,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "6 Weeks",
-          "expedited": "3 Business Day"
+          "expedited": "2 Business Days"
         },
         "Corporations": {
           "normal": "6 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "4 Business Days"
         },
         "Nonprofit": {
           "normal": "6 Weeks",
@@ -2611,7 +2611,7 @@
           "npc": "$12"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$0",
           "npc": "$0"
@@ -2841,7 +2841,7 @@
           "npc": "$26"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$77",
           "corp": "$77",
           "npc": "$11"
@@ -3026,7 +3026,7 @@
         },
         "Nonprofit": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "3 Business Days"
         }
       },
       "companyAddress": {
@@ -3071,7 +3071,7 @@
           "npc": "$27"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$32",
           "corp": "$32",
           "npc": "$22"
@@ -3301,7 +3301,7 @@
           "npc": "$5"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$30",
           "corp": "$60",
           "npc": "$0"
@@ -3531,7 +3531,7 @@
           "npc": "$20"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$106",
           "corp": "$106",
           "npc": "$86"
@@ -3761,7 +3761,7 @@
           "npc": "$10"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$25",
           "corp": "$25",
           "npc": "$25"
@@ -3938,7 +3938,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -3991,7 +3991,7 @@
           "npc": "$25"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$35",
           "corp": "$35",
           "npc": "$15"
@@ -4221,7 +4221,7 @@
           "npc": "$30"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$85",
           "corp": "$85",
           "npc": "$35"
@@ -4402,7 +4402,7 @@
         },
         "Corporations": {
           "normal": "5 Weeks",
-          "expedited": "9 Business Days"
+          "expedited": "10 Business Days"
         },
         "Nonprofit": {
           "normal": "5 Weeks",
@@ -4451,7 +4451,7 @@
           "npc": "$43"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$300",
           "corp": "$300",
           "npc": "$0"
@@ -4681,7 +4681,7 @@
           "npc": "$30"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$520",
           "corp": "$110",
           "npc": "$19"
@@ -4862,7 +4862,7 @@
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "3 Business Days"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -4911,7 +4911,7 @@
           "npc": "$10"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$25",
           "corp": "$25",
           "npc": "$20"
@@ -4993,7 +4993,7 @@
         },
         "Reinstatement": {
           "llc": "YES",
-          "corp": "NO",
+          "corp": "YES",
           "npc": "NO"
         },
         "Dissolution": {
@@ -5096,7 +5096,7 @@
         },
         "Nonprofit": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         }
       },
       "companyAddress": {
@@ -5141,7 +5141,7 @@
           "npc": "$15"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$0",
           "npc": "$0"
@@ -5318,7 +5318,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -5326,7 +5326,7 @@
         },
         "Nonprofit": {
           "normal": "3 Weeks",
-          "expedited": "3 Business Days"
+          "expedited": "2 Business Days"
         }
       },
       "companyAddress": {
@@ -5371,7 +5371,7 @@
           "npc": "$28"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$28",
           "npc": "$27"
@@ -5601,7 +5601,7 @@
           "npc": "$12"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$22",
           "npc": "$10"
@@ -5831,15 +5831,15 @@
           "npc": "$5"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$20",
           "corp": "$20",
           "npc": "$20"
         },
         "Reinstatement": {
           "bizee": "$199",
-          "llc": "$30",
-          "corp": "$30",
+          "llc": "$35",
+          "corp": "$35",
           "npc": "$0"
         },
         "Dissolution": {
@@ -6016,7 +6016,7 @@
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "6 Business Days"
+          "expedited": "5 Business Days"
         }
       },
       "companyAddress": {
@@ -6061,7 +6061,7 @@
           "npc": "$50"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$30",
           "corp": "$30",
           "npc": "$30"
@@ -6291,7 +6291,7 @@
           "npc": "$52"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$154",
           "corp": "$154",
           "npc": "$52"
@@ -6468,7 +6468,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "6 Weeks",
-          "expedited": "14 Business Days"
+          "expedited": "15 Business Days"
         },
         "Corporations": {
           "normal": "6 Weeks",
@@ -6476,7 +6476,7 @@
         },
         "Nonprofit": {
           "normal": "6 Weeks",
-          "expedited": "18 Business Days"
+          "expedited": "19 Business Days"
         }
       },
       "companyAddress": {
@@ -6521,7 +6521,7 @@
           "npc": "$35"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$102",
           "corp": "$102",
           "npc": "$27"
@@ -6751,7 +6751,7 @@
           "npc": "$27"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$78",
           "corp": "$78",
           "npc": "$33"
@@ -6928,11 +6928,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "9 Business Days"
         },
         "Corporations": {
           "normal": "5 weeks",
-          "expedited": "14 Business Days"
+          "expedited": "12 Business Days"
         },
         "Nonprofit": {
           "normal": "7 weeks",
@@ -6981,7 +6981,7 @@
           "npc": "$12"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$25",
           "npc": "$10"
@@ -7211,7 +7211,7 @@
           "npc": "$25"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$9",
           "corp": "$9",
           "npc": "$9"
@@ -7392,7 +7392,7 @@
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "13 Business Days"
+          "expedited": "12 Business Days"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -7441,7 +7441,7 @@
           "npc": "$15"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$203",
           "corp": "$21",
           "npc": "$0"
@@ -7671,7 +7671,7 @@
           "npc": "$20"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$50",
           "corp": "$25",
           "npc": "$10"
@@ -7848,7 +7848,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "3 Business Days"
+          "expedited": "4 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -7901,7 +7901,7 @@
           "npc": "$5"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$0",
           "npc": "$0"
@@ -8131,7 +8131,7 @@
           "npc": "$21"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$26",
           "corp": "$0",
           "npc": "$0"
@@ -8308,7 +8308,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "1 Business Day"
+          "expedited": "2 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -8361,7 +8361,7 @@
           "npc": "$50"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$100",
           "corp": "$100",
           "npc": "$50"
@@ -8538,7 +8538,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "1 Business Day"
+          "expedited": "2 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -8591,7 +8591,7 @@
           "npc": "$40"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$7",
           "corp": "$7",
           "npc": "$0"
@@ -8821,7 +8821,7 @@
           "npc": "$22"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$53",
           "corp": "$53",
           "npc": "$27"
@@ -8998,11 +8998,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "6 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "5 weeks",
-          "expedited": "9 Business days"
+          "expedited": "10 Business days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -9051,7 +9051,7 @@
           "npc": "$14"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$0",
           "npc": "$0"
@@ -9228,7 +9228,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -9281,7 +9281,7 @@
           "npc": "$21"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$57",
           "corp": "$57",
           "npc": "$11"
@@ -9511,7 +9511,7 @@
           "npc": "$21"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$308",
           "corp": "$22",
           "npc": "$22"
@@ -9741,7 +9741,7 @@
           "npc": "$25"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$0",
           "corp": "$0",
           "npc": "$0"
@@ -9750,7 +9750,7 @@
           "bizee": "$199",
           "llc": "$175",
           "corp": "$175",
-          "npc": "$0"
+          "npc": "$175"
         },
         "Dissolution": {
           "bizee": "$249",
@@ -9824,7 +9824,7 @@
         "Reinstatement": {
           "llc": "YES",
           "corp": "YES",
-          "npc": "NO"
+          "npc": "YES"
         },
         "Dissolution": {
           "llc": "YES",
@@ -9922,7 +9922,7 @@
         },
         "Corporations": {
           "normal": "5 Weeks",
-          "expedited": "6 Business Days"
+          "expedited": "5 Business Days"
         },
         "Nonprofit": {
           "normal": "5 Weeks",
@@ -9971,7 +9971,7 @@
           "npc": "$22"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$20",
           "corp": "$20",
           "npc": "$18"
@@ -10201,7 +10201,7 @@
           "npc": "$25"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$45",
           "corp": "$60",
           "npc": "$35"
@@ -10378,7 +10378,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -10431,7 +10431,7 @@
           "npc": "$6"
         },
         "Annual Report\n                                            Stock Share Fees": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$50",
           "corp": "$100",
           "npc": "$25"
@@ -10661,7 +10661,7 @@
           "npc": "$20"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$70",
           "corp": "$70",
           "npc": "$60"
@@ -10891,7 +10891,7 @@
           "npc": "$10"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$26",
           "corp": "$26",
           "npc": "$26"
@@ -11121,7 +11121,7 @@
           "npc": "$20"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$26",
           "corp": "$26",
           "npc": "$26"
@@ -11302,7 +11302,7 @@
         },
         "Corporations": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "3 Business Days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -11351,7 +11351,7 @@
           "npc": "$0"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$62",
           "corp": "$62",
           "npc": "$27"
@@ -11581,7 +11581,7 @@
           "npc": "$50"
         },
         "Annual Report": {
-          "bizee": "$99",
+          "bizee": "$129",
           "llc": "$300",
           "corp": "$300",
           "npc": "$80"
