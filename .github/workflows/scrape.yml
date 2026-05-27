@@ -1,14 +1,18 @@
 name: Scrape Resource Guide Data
 
 on:
-  # Daily schedule disabled 2026-05-27: Bizee sessions expire ~every 3 days and
-  # require email 2FA, which GitHub Actions cannot complete. Scraping now runs via
-  # the local scheduled task. To re-enable, uncomment the cron below AND make sure
-  # the BIZEE_COOKIES secret holds a fresh (non-expired) session.
+  # Daily schedule disabled 2026-05-27. Two blockers make CI unworkable:
+  #   1) Bizee blocks GitHub Actions / datacenter IPs — every page navigation
+  #      hangs and times out, even with valid cookies (verified: identical
+  #      cookies scrape all 51 states fine from a residential IP).
+  #   2) Sessions expire ~every 3 days and re-login needs email 2FA that CI
+  #      cannot complete.
+  # Scraping now runs via the local scheduled task (residential IP), which works.
+  # Re-enabling the cron will NOT help unless the IP block is solved (e.g. a proxy).
   # schedule:
   #   # Run daily at 6:00 AM UTC (1:00 AM EST / 10:00 PM PST)
   #   - cron: '0 6 * * *'
-  workflow_dispatch: # Manual trigger (run after refreshing the BIZEE_COOKIES secret)
+  workflow_dispatch: # Manual trigger (will still fail from CI IPs — kept for testing)
 
 permissions:
   contents: write
