@@ -5,9 +5,12 @@
   "scripts": {
     "scrape": "node scrape.js",
     "login": "node scrape.js --login",
-    "sync-obsidian": "node sync-obsidian.js"
+    "sync-obsidian": "node sync-obsidian.js",
+    "test-gmail": "node test-gmail.js"
   },
   "dependencies": {
+    "imapflow": "^1.3.3",
+    "mailparser": "^3.9.8",
     "puppeteer": "^23.0.0"
   }
 }

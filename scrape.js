@@ -21,6 +21,17 @@ try {
     console.log('Obsidian sync module not available — skipping local sync');
 }
 
+// Optional Gmail IMAP auto-fetch for the 2FA verification code. When configured
+// (gmail-config.json or GMAIL_USER/GMAIL_APP_PASSWORD), login can self-heal
+// unattended — including the local scheduled task.
+let fetchLatestVerificationCode = async () => null;
+let getGmailConfig = () => null;
+try {
+    ({ fetchLatestVerificationCode, getGmailConfig } = require('./gmail-imap'));
+} catch (e) {
+    console.log('Gmail IMAP module not available — 2FA auto-fetch disabled:', e.message);
+}
+
 const COOKIES_FILE = path.join(__dirname, 'cookies.json');
 const OUTPUT_FILE = path.join(__dirname, 'states.json');
 const LOGIN_URL = 'https://bizee.tech/login';
@@ -73,7 +84,9 @@ async function login(page, interactive = false) {
     const formDebug = await page.$$eval('button, input[type="submit"]', els => els.map(e => ({ tag: e.tagName, type: e.type, text: e.textContent.trim(), visible: e.offsetParent !== null })));
     console.log('Buttons found:', JSON.stringify(formDebug));
 
-    // Click submit - try multiple selectors
+    // Click submit - try multiple selectors. Record the time so Gmail auto-fetch
+    // only accepts a code that arrived as a result of THIS login attempt.
+    const codeRequestedAt = Date.now();
     const submitBtn = await page.$('button[type="submit"]') || await page.$('button.btn-success') || await page.$('button.btn');
     if (!submitBtn) {
         console.log('No submit button found, pressing Enter...');
@@ -91,42 +104,60 @@ async function login(page, interactive = false) {
     const needsVerification = pageContent.includes('verification') || pageContent.includes('Verification') || pageContent.includes('verify');
 
     if (needsVerification) {
-        if (!interactive) {
-            console.log('ERROR: Verification code required. Run with --login flag for interactive mode.');
-            return false;
-        }
-
         console.log('\n⚠️  Verification code required!');
-        console.log('Check email for code from no-reply@incfile.com');
         console.log('Current URL:', page.url());
 
-        let code;
+        let code = null;
         const isTTY = process.stdin.isTTY;
+
+        // 1) Explicit override always wins.
         if (process.env.VERIFICATION_CODE) {
-            code = process.env.VERIFICATION_CODE;
-            console.log('Using verification code from environment variable');
-        } else if (!interactive || !isTTY) {
-            // In automated mode, wait up to 3 minutes checking for a code file
-            console.log('Waiting for verification code... Write it to verification-code.txt');
-            const codeFile = path.join(__dirname, 'verification-code.txt');
-            // Clean up any old code file
-            if (fs.existsSync(codeFile)) fs.unlinkSync(codeFile);
-            const maxWait = 1800000; // 30 minutes
-            const start = Date.now();
-            while (Date.now() - start < maxWait) {
-                if (fs.existsSync(codeFile)) {
-                    code = fs.readFileSync(codeFile, 'utf8').trim();
-                    fs.unlinkSync(codeFile);
-                    break;
+            code = process.env.VERIFICATION_CODE.trim();
+            console.log('Using verification code from VERIFICATION_CODE env var');
+        }
+
+        // 2) Auto-fetch from Gmail (works in both interactive and unattended modes,
+        //    so the local scheduled task can self-heal when the session expires).
+        if (!code && getGmailConfig()) {
+            console.log('Fetching verification code from Gmail (no-reply@incfile.com)...');
+            code = await fetchLatestVerificationCode({
+                fromContains: 'incfile.com',
+                sinceTs: codeRequestedAt,
+                timeoutMs: 120000
+            });
+            if (code) {
+                console.log(`Got verification code from Gmail: ${code.replace(/.(?=.{2})/g, '*')}`);
+            } else {
+                console.log('Could not retrieve a code from Gmail within the timeout.');
+            }
+        }
+
+        // 3) Manual fallbacks: file relay (non-TTY) or prompt (TTY) — only when interactive.
+        if (!code && interactive) {
+            if (!isTTY) {
+                console.log('Check email for code from no-reply@incfile.com');
+                console.log('Waiting for verification code... Write it to verification-code.txt');
+                const codeFile = path.join(__dirname, 'verification-code.txt');
+                if (fs.existsSync(codeFile)) fs.unlinkSync(codeFile);
+                const maxWait = 1800000; // 30 minutes
+                const start = Date.now();
+                while (Date.now() - start < maxWait) {
+                    if (fs.existsSync(codeFile)) {
+                        code = fs.readFileSync(codeFile, 'utf8').trim();
+                        fs.unlinkSync(codeFile);
+                        break;
+                    }
+                    await new Promise(r => setTimeout(r, 2000));
                 }
-                await new Promise(r => setTimeout(r, 2000));
+            } else {
+                code = (await prompt('Enter verification code: ')).trim();
             }
-            if (!code) {
-                console.log('Timed out waiting for verification code');
-                return false;
-            }
-        } else {
-            code = await prompt('Enter verification code: ');
+        }
+
+        if (!code) {
+            console.log('No verification code obtained — cannot complete login.');
+            console.log('Configure Gmail auto-fetch (gmail-config.json), set VERIFICATION_CODE, or run with --login to relay manually.');
+            return false;
         }
 
         // Find the code input — could be various names

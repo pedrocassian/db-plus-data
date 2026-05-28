@@ -1,5 +1,6 @@
 node_modules/
 cookies.json
 verification-code.txt
+gmail-config.json
 .claude/
 test-login.js
