@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T13:05:36.143Z",
+  "lastUpdated": "2026-06-02T14:52:38.050Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -6928,7 +6928,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "9 Business Days"
+          "expedited": "10 Business Days"
         },
         "Corporations": {
           "normal": "5 weeks",
@@ -9002,7 +9002,7 @@
         },
         "Corporations": {
           "normal": "5 weeks",
-          "expedited": "9 Business days"
+          "expedited": "16 Business days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
