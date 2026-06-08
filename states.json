@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T14:52:38.050Z",
+  "lastUpdated": "2026-06-08T13:03:22.615Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -718,11 +718,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "5 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "5 Business Days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -1829,7 +1829,7 @@
         "Members": {
           "State requires listing the names & addresses?": "OPTIONAL",
           "Is a Company allowed to be a Member?": "YES",
-          "Is a Representative Name required for Company type Members?": "NO"
+          "Is a Representative Name required for Company type Members?": "YES"
         },
         "Directors": {
           "State requires listing the names & addresses?": "OPTIONAL",
@@ -1868,7 +1868,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "6 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -2328,11 +2328,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "12 Weeks",
-          "expedited": "12 Business Days"
+          "expedited": "5 Business Days"
         },
         "Corporations": {
           "normal": "12 Weeks",
-          "expedited": "12 Business Days"
+          "expedited": "5 Business Days"
         },
         "Nonprofit": {
           "normal": "12 Weeks",
@@ -4398,7 +4398,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "5 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "8 Business Days"
         },
         "Corporations": {
           "normal": "5 Weeks",
@@ -6472,7 +6472,7 @@
         },
         "Corporations": {
           "normal": "6 Weeks",
-          "expedited": "10 Business Days"
+          "expedited": "11 Business Days"
         },
         "Nonprofit": {
           "normal": "6 Weeks",
@@ -7856,7 +7856,7 @@
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "3 Business Days"
         }
       },
       "companyAddress": {
