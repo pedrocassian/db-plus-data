@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T13:03:22.615Z",
+  "lastUpdated": "2026-06-09T13:03:25.274Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -718,11 +718,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "6 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "3 Business Days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -952,7 +952,7 @@
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "6 Business Days"
+          "expedited": "4 Business Days"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -2328,11 +2328,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "12 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "4 Business Days"
         },
         "Corporations": {
           "normal": "12 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "4 Business Days"
         },
         "Nonprofit": {
           "normal": "12 Weeks",
@@ -9002,7 +9002,7 @@
         },
         "Corporations": {
           "normal": "5 weeks",
-          "expedited": "16 Business days"
+          "expedited": "10 Business days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
