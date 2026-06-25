@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T13:03:45.841Z",
+  "lastUpdated": "2026-06-25T13:03:29.965Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -7396,7 +7396,7 @@
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "8 Business Days"
+          "expedited": "14 Business Days"
         }
       },
       "companyAddress": {
