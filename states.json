@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T13:03:28.031Z",
+  "lastUpdated": "2026-07-02T13:03:24.492Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -6723,8 +6723,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$129",
-          "corp": "$129",
-          "npc": "$125"
+          "corp": "$104",
+          "npc": "$104"
         },
         "Amendment": {
           "bizee": "$99",
