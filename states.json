@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T13:03:29.177Z",
+  "lastUpdated": "2026-07-13T13:03:31.754Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -9948,9 +9948,9 @@
         },
         "Amendment": {
           "bizee": "$99",
-          "llc": "$37",
-          "corp": "$37",
-          "npc": "$37"
+          "llc": "$17",
+          "corp": "$17",
+          "npc": "$17"
         },
         "Change of Registered Agent": {
           "bizee": "$99",
