@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T13:03:26.247Z",
+  "lastUpdated": "2026-07-16T13:03:25.347Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -2850,7 +2850,7 @@
           "bizee": "$199",
           "llc": "$200",
           "corp": "$207",
-          "npc": "$0"
+          "npc": "$27"
         },
         "Dissolution": {
           "bizee": "$199",
@@ -2924,7 +2924,7 @@
         "Reinstatement": {
           "llc": "YES",
           "corp": "YES",
-          "npc": "NO"
+          "npc": "YES"
         },
         "Dissolution": {
           "llc": "YES",
