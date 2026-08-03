@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T13:03:31.202Z",
+  "lastUpdated": "2026-08-03T13:03:45.082Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -10118,7 +10118,7 @@
           "Is a Company allowed to be a Director?": "NO"
         },
         "Officers": {
-          "Is the Officers Address required?": "NO"
+          "Is the Officers Address required?": "YES"
         }
       }
     },
