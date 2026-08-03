@@ -1,28 +1,24 @@
 {
-  "lastUpdated": "2026-08-03T13:03:45.082Z",
+  "lastUpdated": "2026-08-03T20:00:09.576Z",
   "stateCount": 51,
   "states": {
     "AL": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$236"
+          "stateFee": "$236",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$236"
+          "stateFee": "$236",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$236"
+          "stateFee": "$236",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$236"
+          "stateFee": "$236",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -234,24 +230,20 @@
     },
     "AK": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$250"
+          "stateFee": "$250",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$250"
+          "stateFee": "$250",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$250"
+          "stateFee": "$250",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         }
       },
@@ -464,25 +456,21 @@
     },
     "AZ": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$87"
+          "stateFee": "$87",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$98"
+          "stateFee": "$98",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$98"
+          "stateFee": "$98",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$77"
+          "stateFee": "$77",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -694,25 +682,21 @@
     },
     "AR": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$45"
+          "stateFee": "$45",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$45"
+          "stateFee": "$45",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$45"
+          "stateFee": "$45",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$45"
+          "stateFee": "$45",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -924,25 +908,21 @@
     },
     "CA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$75"
+          "stateFee": "$75",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$105"
+          "stateFee": "$105",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$105"
+          "stateFee": "$105",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$35"
+          "stateFee": "$35",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -1154,24 +1134,20 @@
     },
     "CO": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$50"
+          "stateFee": "$50",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         }
       },
@@ -1384,24 +1360,20 @@
     },
     "CT": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$120"
+          "stateFee": "$120",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$250"
+          "stateFee": "$250",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$250"
+          "stateFee": "$250",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         }
       },
@@ -1614,25 +1586,21 @@
     },
     "DE": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$143"
+          "stateFee": "$143",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$142"
+          "stateFee": "$142",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$142"
+          "stateFee": "$142",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$151"
+          "stateFee": "$151",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -1844,35 +1812,31 @@
     },
     "FL": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$70"
+          "stateFee": "$70",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$70"
+          "stateFee": "$70",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$79"
+          "stateFee": "$79",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "5 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "5 Business Days"
         },
         "Nonprofit": {
           "normal": "6 Weeks",
@@ -2074,25 +2038,21 @@
     },
     "GA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$110"
+          "stateFee": "$110",
+          "expeditedFee": "$170"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$110"
+          "stateFee": "$110",
+          "expeditedFee": "§\n                        \n                        $170"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$110"
+          "stateFee": "$110",
+          "expeditedFee": "$170"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$110"
+          "stateFee": "$110",
+          "expeditedFee": "$175"
         }
       },
       "formationTimes": {
@@ -2304,25 +2264,21 @@
     },
     "HI": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$51"
+          "stateFee": "$51",
+          "expeditedFee": "$75"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$51"
+          "stateFee": "$51",
+          "expeditedFee": "§\n                        \n                        $75"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$51"
+          "stateFee": "$51",
+          "expeditedFee": "$75"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$26"
+          "stateFee": "$26",
+          "expeditedFee": "$75"
         }
       },
       "formationTimes": {
@@ -2534,25 +2490,21 @@
     },
     "ID": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$90"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "§\n                        \n                        $90"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$90"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$31"
+          "stateFee": "$31",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -2764,25 +2716,21 @@
     },
     "IL": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$154"
+          "stateFee": "$154",
+          "expeditedFee": "$152"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$154"
+          "stateFee": "$154",
+          "expeditedFee": "§\n                        \n                        $152"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$154"
+          "stateFee": "$154",
+          "expeditedFee": "$152"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$52"
+          "stateFee": "$52",
+          "expeditedFee": "$75"
         }
       },
       "formationTimes": {
@@ -2994,25 +2942,21 @@
     },
     "IN": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$98"
+          "stateFee": "$98",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$98"
+          "stateFee": "$98",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$98"
+          "stateFee": "$98",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$31"
+          "stateFee": "$31",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -3224,25 +3168,21 @@
     },
     "IA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$50"
+          "stateFee": "$50",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$20"
+          "stateFee": "$20",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -3454,25 +3394,21 @@
     },
     "KS": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$85"
+          "stateFee": "$85",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$85"
+          "stateFee": "$85",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$85"
+          "stateFee": "$85",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$20"
+          "stateFee": "$20",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -3684,25 +3620,21 @@
     },
     "KY": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$40"
+          "stateFee": "$40",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$55"
+          "stateFee": "$55",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$55"
+          "stateFee": "$55",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$8"
+          "stateFee": "$8",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -3914,25 +3846,21 @@
     },
     "LA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$105"
+          "stateFee": "$105",
+          "expeditedFee": "$100"
         },
         "S-Corporation": {
-          "stateFee": "NO",
-          "expeditedFee": "$75"
+          "stateFee": "$75",
+          "expeditedFee": "§\n                        \n                        $100"
         },
         "C-Corporation": {
-          "stateFee": "NO",
-          "expeditedFee": "$75"
+          "stateFee": "$75",
+          "expeditedFee": "$100"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$80"
+          "stateFee": "$80",
+          "expeditedFee": "$100"
         }
       },
       "formationTimes": {
@@ -4144,25 +4072,21 @@
     },
     "ME": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$175"
+          "stateFee": "$175",
+          "expeditedFee": "$100"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$145"
+          "stateFee": "$145",
+          "expeditedFee": "§\n                        \n                        $100"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$145"
+          "stateFee": "$145",
+          "expeditedFee": "$100"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$40"
+          "stateFee": "$40",
+          "expeditedFee": "$100"
         }
       },
       "formationTimes": {
@@ -4374,25 +4298,21 @@
     },
     "MD": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$197"
+          "stateFee": "$197",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$218"
+          "stateFee": "$218",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$218"
+          "stateFee": "$218",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$270"
+          "stateFee": "$270",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -4604,25 +4524,21 @@
     },
     "MA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$520"
+          "stateFee": "$520",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$265"
+          "stateFee": "$265",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$265"
+          "stateFee": "$265",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$41"
+          "stateFee": "$41",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -4834,25 +4750,21 @@
     },
     "MI": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$60"
+          "stateFee": "$60",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$60"
+          "stateFee": "$60",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$20"
+          "stateFee": "$20",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -5064,25 +4976,21 @@
     },
     "MN": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$155"
+          "stateFee": "$155",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$155"
+          "stateFee": "$155",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$155"
+          "stateFee": "$155",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$90"
+          "stateFee": "$90",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -5294,25 +5202,21 @@
     },
     "MS": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$54"
+          "stateFee": "$54",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$54"
+          "stateFee": "$54",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$54"
+          "stateFee": "$54",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$54"
+          "stateFee": "$54",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -5524,25 +5428,21 @@
     },
     "MO": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$52"
+          "stateFee": "$52",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$60"
+          "stateFee": "$60",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$60"
+          "stateFee": "$60",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$26"
+          "stateFee": "$26",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -5754,25 +5654,21 @@
     },
     "MT": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$35"
+          "stateFee": "$35",
+          "expeditedFee": "$70"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$35"
+          "stateFee": "$35",
+          "expeditedFee": "§\n                        \n                        $70"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$35"
+          "stateFee": "$35",
+          "expeditedFee": "$70"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$20"
+          "stateFee": "$20",
+          "expeditedFee": "$70"
         }
       },
       "formationTimes": {
@@ -5984,25 +5880,21 @@
     },
     "NE": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$103"
+          "stateFee": "$103",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$103"
+          "stateFee": "$103",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$103"
+          "stateFee": "$103",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$27"
+          "stateFee": "$27",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -6214,25 +6106,21 @@
     },
     "NV": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$436"
+          "stateFee": "$436",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$744"
+          "stateFee": "$744",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$744"
+          "stateFee": "$744",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$103"
+          "stateFee": "$103",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -6444,25 +6332,21 @@
     },
     "NH": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$102"
+          "stateFee": "$102",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$27"
+          "stateFee": "$27",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -6674,25 +6558,21 @@
     },
     "NJ": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$110"
+          "stateFee": "$110",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$110"
+          "stateFee": "$110",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$110"
+          "stateFee": "$110",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$60"
+          "stateFee": "$60",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -6904,25 +6784,21 @@
     },
     "NM": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$52"
+          "stateFee": "$52",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$102"
+          "stateFee": "$102",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$102"
+          "stateFee": "$102",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$27"
+          "stateFee": "$27",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -7134,25 +7010,21 @@
     },
     "NY": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$205"
+          "stateFee": "$205",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$130"
+          "stateFee": "$130",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$130"
+          "stateFee": "$130",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "NO",
-          "expeditedFee": "$75"
+          "stateFee": "$75",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -7364,25 +7236,21 @@
     },
     "NC": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$128"
+          "stateFee": "$128",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$128"
+          "stateFee": "$128",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$128"
+          "stateFee": "$128",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$63"
+          "stateFee": "$63",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -7594,25 +7462,21 @@
     },
     "ND": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$135"
+          "stateFee": "$135",
+          "expeditedFee": "$75"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "§\n                        \n                        $75"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$75"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$40"
+          "stateFee": "$40",
+          "expeditedFee": "$75"
         }
       },
       "formationTimes": {
@@ -7824,31 +7688,27 @@
     },
     "OH": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$99"
+          "stateFee": "$99",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$99"
+          "stateFee": "$99",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -8054,25 +7914,21 @@
     },
     "OK": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$104"
+          "stateFee": "$104",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$52"
+          "stateFee": "$52",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$52"
+          "stateFee": "$52",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$26"
+          "stateFee": "$26",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -8284,24 +8140,20 @@
     },
     "OR": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
+          "stateFee": "$50",
           "expeditedFee": "$50"
         }
       },
@@ -8514,25 +8366,21 @@
     },
     "PA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$125"
+          "stateFee": "$125",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -8744,25 +8592,21 @@
     },
     "RI": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$156"
+          "stateFee": "$156",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$238"
+          "stateFee": "$238",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$238"
+          "stateFee": "$238",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$38"
+          "stateFee": "$38",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -8974,25 +8818,21 @@
     },
     "SC": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$132"
+          "stateFee": "$132",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$325"
+          "stateFee": "$325",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$325"
+          "stateFee": "$325",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$45"
+          "stateFee": "$45",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -9204,25 +9044,21 @@
     },
     "SD": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$154"
+          "stateFee": "$154",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$154"
+          "stateFee": "$154",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$154"
+          "stateFee": "$154",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$31"
+          "stateFee": "$31",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -9434,25 +9270,21 @@
     },
     "TN": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$300"
+          "stateFee": "$300",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$103"
+          "stateFee": "$103",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -9664,25 +9496,21 @@
     },
     "TX": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$300"
+          "stateFee": "$300",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$300"
+          "stateFee": "$300",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$300"
+          "stateFee": "$300",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$25"
+          "stateFee": "$25",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -9894,25 +9722,21 @@
     },
     "UT": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$59"
+          "stateFee": "$59",
+          "expeditedFee": "$125"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$59"
+          "stateFee": "$59",
+          "expeditedFee": "§\n                        \n                        $125"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$59"
+          "stateFee": "$59",
+          "expeditedFee": "$125"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$59"
+          "stateFee": "$59",
+          "expeditedFee": "$125"
         }
       },
       "formationTimes": {
@@ -10124,25 +9948,21 @@
     },
     "VT": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$155"
+          "stateFee": "$155",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$155"
+          "stateFee": "$155",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$155"
+          "stateFee": "$155",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$155"
+          "stateFee": "$155",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -10354,25 +10174,21 @@
     },
     "VA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$75"
+          "stateFee": "$75",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$75"
+          "stateFee": "$75",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$175"
+          "stateFee": "$175",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -10584,25 +10400,21 @@
     },
     "WA": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$200"
+          "stateFee": "$200",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$200"
+          "stateFee": "$200",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$200"
+          "stateFee": "$200",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$60"
+          "stateFee": "$60",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -10814,25 +10626,21 @@
     },
     "WV": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$75"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "§\n                        \n                        $75"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$75"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$25"
+          "stateFee": "$25",
+          "expeditedFee": "$75"
         }
       },
       "formationTimes": {
@@ -11044,25 +10852,21 @@
     },
     "WI": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$130"
+          "stateFee": "$130",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$36"
+          "stateFee": "$36",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -11274,25 +11078,21 @@
     },
     "WY": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$104"
+          "stateFee": "$104",
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$104"
+          "stateFee": "$104",
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$104"
+          "stateFee": "$104",
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$53"
+          "stateFee": "$53",
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -11504,25 +11304,21 @@
     },
     "DC": {
       "formationFees": {
-        "Formation": {
-          "stateFee": "Offer",
-          "expeditedFee": "State Fee"
-        },
         "LLC": {
-          "stateFee": "YES",
-          "expeditedFee": "$99"
+          "stateFee": "$99",
+          "expeditedFee": "$100"
         },
         "S-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$99"
+          "stateFee": "$99",
+          "expeditedFee": "§\n                        \n                        $100"
         },
         "C-Corporation": {
-          "stateFee": "YES",
-          "expeditedFee": "$99"
+          "stateFee": "$99",
+          "expeditedFee": "$100"
         },
         "Nonprofit": {
-          "stateFee": "YES",
-          "expeditedFee": "$80"
+          "stateFee": "$80",
+          "expeditedFee": "$100"
         }
       },
       "formationTimes": {
