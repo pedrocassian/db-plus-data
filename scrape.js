@@ -206,21 +206,35 @@ async function extractStateData(page) {
         // Wait for dynamic content
         await new Promise(r => setTimeout(r, 3000));
 
-        // Extract formation filing fees
+        // Extract formation filing fees. Column-position-based (not
+        // header-driven) because bizee inserted a new "Offer" column
+        // between Formation and State Fee at some point, which silently
+        // shifted cells[1]/cells[2] to hold Offer/State-Fee instead of
+        // State-Fee/Expedited — so this now reads the header row's own
+        // labels to find the right columns, with the old fixed positions
+        // only as a fallback if the header can't be parsed. Header row is
+        // skipped by index (row 0), not by matching its label text, since
+        // that text itself changed ("Formation Filing Fees" -> "Formation").
         const feeTable = document.querySelector('#state-filings-content table');
         const formationFees = {};
         if (feeTable) {
-            feeTable.querySelectorAll('tr').forEach(row => {
+            const feeRows = Array.from(feeTable.querySelectorAll('tr'));
+            const feeHeaderCells = feeRows[0] ? Array.from(feeRows[0].querySelectorAll('td')) : [];
+            const feeHeaderLabels = feeHeaderCells.map(td => td.textContent.replace(/\s+/g, ' ').trim().toLowerCase());
+            const stateFeeIdx = feeHeaderLabels.findIndex(l => l.includes('state fee'));
+            const expeditedFeeIdx = feeHeaderLabels.findIndex(l => l.includes('expedit'));
+            feeRows.forEach((row, i) => {
+                if (i === 0) return;
                 const cells = row.querySelectorAll('td');
-                if (cells.length >= 3) {
-                    const entityType = cells[0].textContent.trim();
-                    if (entityType && entityType !== 'Formation Filing Fees') {
-                        formationFees[entityType] = {
-                            stateFee: cells[1].textContent.trim(),
-                            expeditedFee: cells[2].textContent.trim()
-                        };
-                    }
-                }
+                if (cells.length < 3) return;
+                const entityType = cells[0].textContent.trim();
+                if (!entityType) return;
+                const sfIdx = stateFeeIdx >= 0 ? stateFeeIdx : cells.length - 2;
+                const exIdx = expeditedFeeIdx >= 0 ? expeditedFeeIdx : cells.length - 1;
+                formationFees[entityType] = {
+                    stateFee: cells[sfIdx] ? cells[sfIdx].textContent.trim() : '',
+                    expeditedFee: cells[exIdx] ? cells[exIdx].textContent.trim() : ''
+                };
             });
         }
 
@@ -228,11 +242,13 @@ async function extractStateData(page) {
         const timeTables = document.querySelectorAll('#state-filings-content table');
         const formationTimes = {};
         if (timeTables.length > 1) {
-            timeTables[1].querySelectorAll('tr').forEach(row => {
+            const timeRows = Array.from(timeTables[1].querySelectorAll('tr'));
+            timeRows.forEach((row, i) => {
+                if (i === 0) return;
                 const cells = row.querySelectorAll('td');
                 if (cells.length >= 3) {
                     const entityType = cells[0].textContent.trim();
-                    if (entityType && entityType !== 'Formation Filing Times') {
+                    if (entityType) {
                         formationTimes[entityType] = {
                             normal: cells[1].textContent.trim(),
                             expedited: cells[2].textContent.trim()
