@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T20:00:09.576Z",
+  "lastUpdated": "2026-08-07T13:03:27.083Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -1380,7 +1380,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "3 Business Days"
+          "expedited": "2 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -1588,33 +1588,33 @@
       "formationFees": {
         "LLC": {
           "stateFee": "$143",
-          "expeditedFee": "$50"
+          "expeditedFee": "$100"
         },
         "S-Corporation": {
           "stateFee": "$142",
-          "expeditedFee": "§\n                        \n                        $50"
+          "expeditedFee": "§\n                        \n                        $100"
         },
         "C-Corporation": {
           "stateFee": "$142",
-          "expeditedFee": "$50"
+          "expeditedFee": "$100"
         },
         "Nonprofit": {
           "stateFee": "$151",
-          "expeditedFee": "$50"
+          "expeditedFee": "$100"
         }
       },
       "formationTimes": {
         "LLC": {
           "normal": "6 Weeks",
-          "expedited": "9 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "6 Weeks",
-          "expedited": "12 Business Days"
+          "expedited": "3 Business Days"
         },
         "Nonprofit": {
           "normal": "6 Weeks",
-          "expedited": "12 Business Days"
+          "expedited": "3 Business Days"
         }
       },
       "companyAddress": {
@@ -2052,7 +2052,7 @@
         },
         "Nonprofit": {
           "stateFee": "$110",
-          "expeditedFee": "$175"
+          "expeditedFee": "$170"
         }
       },
       "formationTimes": {
@@ -2266,19 +2266,19 @@
       "formationFees": {
         "LLC": {
           "stateFee": "$51",
-          "expeditedFee": "$75"
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
           "stateFee": "$51",
-          "expeditedFee": "§\n                        \n                        $75"
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
           "stateFee": "$51",
-          "expeditedFee": "$75"
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
           "stateFee": "$26",
-          "expeditedFee": "$75"
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -2491,20 +2491,20 @@
     "ID": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$100",
+          "stateFee": "$104",
           "expeditedFee": "$90"
         },
         "S-Corporation": {
-          "stateFee": "$100",
+          "stateFee": "$104",
           "expeditedFee": "§\n                        \n                        $90"
         },
         "C-Corporation": {
-          "stateFee": "$100",
+          "stateFee": "$104",
           "expeditedFee": "$90"
         },
         "Nonprofit": {
-          "stateFee": "$31",
-          "expeditedFee": "$50"
+          "stateFee": "$34",
+          "expeditedFee": "$90"
         }
       },
       "formationTimes": {
@@ -4299,30 +4299,30 @@
     "MD": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$197",
+          "stateFee": "$196",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$218",
+          "stateFee": "$217",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$218",
+          "stateFee": "$217",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "$270",
+          "stateFee": "$268",
           "expeditedFee": "$50"
         }
       },
       "formationTimes": {
         "LLC": {
           "normal": "5 Weeks",
-          "expedited": "8 Business Days"
+          "expedited": "7 Business Days"
         },
         "Corporations": {
           "normal": "5 Weeks",
-          "expedited": "10 Business Days"
+          "expedited": "9 Business Days"
         },
         "Nonprofit": {
           "normal": "5 Weeks",
@@ -5908,7 +5908,7 @@
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "4 Business Days"
         }
       },
       "companyAddress": {
@@ -6337,11 +6337,11 @@
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$125",
+          "stateFee": "$102",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$125",
+          "stateFee": "$102",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
@@ -6559,19 +6559,19 @@
     "NJ": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$110",
+          "stateFee": "$104",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$110",
+          "stateFee": "$104",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$110",
+          "stateFee": "$104",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "$60",
+          "stateFee": "$54",
           "expeditedFee": "$50"
         }
       },
@@ -6804,7 +6804,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "14 Business Days"
+          "expedited": "13 Business Days"
         },
         "Corporations": {
           "normal": "5 weeks",
@@ -7256,11 +7256,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "10 Business Days"
+          "expedited": "9 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "12 Business Days"
+          "expedited": "11 Business Days"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -7464,19 +7464,19 @@
       "formationFees": {
         "LLC": {
           "stateFee": "$135",
-          "expeditedFee": "$75"
+          "expeditedFee": "$50"
         },
         "S-Corporation": {
           "stateFee": "$100",
-          "expeditedFee": "§\n                        \n                        $75"
+          "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
           "stateFee": "$100",
-          "expeditedFee": "$75"
+          "expeditedFee": "$50"
         },
         "Nonprofit": {
           "stateFee": "$40",
-          "expeditedFee": "$75"
+          "expeditedFee": "$50"
         }
       },
       "formationTimes": {
@@ -7693,11 +7693,11 @@
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$125",
+          "stateFee": "$99",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$125",
+          "stateFee": "$99",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
@@ -8842,7 +8842,7 @@
         },
         "Corporations": {
           "normal": "5 weeks",
-          "expedited": "11 Business days"
+          "expedited": "9 Business days"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -9271,15 +9271,15 @@
     "TN": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$300",
+          "stateFee": "$308",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$100",
+          "stateFee": "$103",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$100",
+          "stateFee": "$103",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
@@ -9516,7 +9516,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -10853,15 +10853,15 @@
     "WI": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$130",
+          "stateFee": "$134",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$100",
+          "stateFee": "$103",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$100",
+          "stateFee": "$103",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
@@ -11079,19 +11079,19 @@
     "WY": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$104",
+          "stateFee": "$103",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$104",
+          "stateFee": "$103",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$104",
+          "stateFee": "$103",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "$53",
+          "stateFee": "$52",
           "expeditedFee": "$50"
         }
       },
