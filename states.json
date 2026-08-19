@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T13:03:32.064Z",
+  "lastUpdated": "2026-08-19T13:03:27.272Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -48,9 +48,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$195",
-          "corp": "$195",
-          "npc": "$200"
+          "llc": "$184",
+          "corp": "$184",
+          "npc": "$184"
         },
         "Amendment": {
           "bizee": "$99",
@@ -276,7 +276,7 @@
           "bizee": "$199",
           "llc": "$350",
           "corp": "$350",
-          "npc": "$350"
+          "npc": "$50"
         },
         "Amendment": {
           "bizee": "$99",
@@ -501,8 +501,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$190",
-          "corp": "$220",
-          "npc": "$220"
+          "corp": "$215",
+          "npc": "$215"
         },
         "Amendment": {
           "bizee": "$99",
@@ -726,9 +726,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$300",
-          "corp": "$300",
-          "npc": "$300"
+          "llc": "$270",
+          "corp": "$270",
+          "npc": "$270"
         },
         "Amendment": {
           "bizee": "$99",
@@ -953,8 +953,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$75",
-          "corp": "$115",
-          "npc": "$115"
+          "corp": "$105",
+          "npc": "$35"
         },
         "Amendment": {
           "bizee": "$99",
@@ -1406,7 +1406,7 @@
           "bizee": "$199",
           "llc": "$120",
           "corp": "$385",
-          "npc": "$385"
+          "npc": "$40"
         },
         "Amendment": {
           "bizee": "$99",
@@ -1858,7 +1858,7 @@
           "bizee": "$199",
           "llc": "$130",
           "corp": "$79",
-          "npc": "$70"
+          "npc": "$79"
         },
         "Amendment": {
           "bizee": "$99",
@@ -2084,7 +2084,7 @@
           "bizee": "$199",
           "llc": "$235",
           "corp": "$235",
-          "npc": "$230"
+          "npc": "$235"
         },
         "Amendment": {
           "bizee": "$99",
@@ -2310,7 +2310,7 @@
           "bizee": "$199",
           "llc": "$51",
           "corp": "$51",
-          "npc": "$50"
+          "npc": "$26"
         },
         "Amendment": {
           "bizee": "$99",
@@ -2534,9 +2534,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$120",
-          "corp": "$120",
-          "npc": "$120"
+          "llc": "$104",
+          "corp": "$104",
+          "npc": "$104"
         },
         "Amendment": {
           "bizee": "$99",
@@ -2761,8 +2761,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$200",
-          "corp": "$275",
-          "npc": "$175"
+          "corp": "$200",
+          "npc": "$100"
         },
         "Amendment": {
           "bizee": "$99",
@@ -2988,7 +2988,7 @@
           "bizee": "$199",
           "llc": "$108",
           "corp": "$108",
-          "npc": "$108"
+          "npc": "$41"
         },
         "Amendment": {
           "bizee": "$99",
@@ -3214,7 +3214,7 @@
           "bizee": "$199",
           "llc": "$100",
           "corp": "$100",
-          "npc": "$100"
+          "npc": "$25"
         },
         "Amendment": {
           "bizee": "$99",
@@ -3438,7 +3438,7 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$165",
+          "llc": "$115",
           "corp": "$115",
           "npc": "$115"
         },
@@ -4118,7 +4118,7 @@
           "bizee": "$199",
           "llc": "$250",
           "corp": "$250",
-          "npc": "$250"
+          "npc": "$45"
         },
         "Amendment": {
           "bizee": "$99",
@@ -4344,7 +4344,7 @@
           "bizee": "$199",
           "llc": "$155",
           "corp": "$155",
-          "npc": "$155"
+          "npc": "$125"
         },
         "Amendment": {
           "bizee": "$99",
@@ -4569,8 +4569,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$520",
-          "corp": "$420",
-          "npc": "$420"
+          "corp": "$390",
+          "npc": "$390"
         },
         "Amendment": {
           "bizee": "$99",
@@ -4796,7 +4796,7 @@
           "bizee": "$199",
           "llc": "$50",
           "corp": "$60",
-          "npc": "$60"
+          "npc": "$20"
         },
         "Amendment": {
           "bizee": "$99",
@@ -5020,9 +5020,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$225",
-          "corp": "$225",
-          "npc": "$225"
+          "llc": "$205",
+          "corp": "$220",
+          "npc": "$70"
         },
         "Amendment": {
           "bizee": "$99",
@@ -5246,9 +5246,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$275",
-          "corp": "$525",
-          "npc": "$525"
+          "llc": "$258",
+          "corp": "$514",
+          "npc": "$105"
         },
         "Amendment": {
           "bizee": "$99",
@@ -5473,8 +5473,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$108",
-          "corp": "$158",
-          "npc": "$155"
+          "corp": "$159",
+          "npc": "$26"
         },
         "Amendment": {
           "bizee": "$99",
@@ -5700,7 +5700,7 @@
           "bizee": "$149",
           "llc": "$70",
           "corp": "$70",
-          "npc": "$70"
+          "npc": "$20"
         },
         "Amendment": {
           "bizee": "$99",
@@ -5924,9 +5924,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$135",
-          "corp": "$150",
-          "npc": "$135"
+          "llc": "$114",
+          "corp": "$103",
+          "npc": "$27"
         },
         "Amendment": {
           "bizee": "$99",
@@ -6151,8 +6151,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$436",
-          "corp": "$743",
-          "npc": "$725"
+          "corp": "$744",
+          "npc": "$308"
         },
         "Amendment": {
           "bizee": "$99",
@@ -6377,8 +6377,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$102",
-          "corp": "$100",
-          "npc": "$100"
+          "corp": "$102",
+          "npc": "$27"
         },
         "Amendment": {
           "bizee": "$99",
@@ -6828,9 +6828,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$100",
-          "corp": "$300",
-          "npc": "$200"
+          "llc": "$102",
+          "corp": "$202",
+          "npc": "$27"
         },
         "Amendment": {
           "bizee": "$99",
@@ -7054,9 +7054,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$305",
-          "corp": "$280",
-          "npc": "$280"
+          "llc": "$280",
+          "corp": "$255",
+          "npc": "$165"
         },
         "Amendment": {
           "bizee": "$99",
@@ -7282,7 +7282,7 @@
           "bizee": "$199",
           "llc": "$253",
           "corp": "$253",
-          "npc": "$250"
+          "npc": "$128"
         },
         "Amendment": {
           "bizee": "$99",
@@ -7508,7 +7508,7 @@
           "bizee": "$199",
           "llc": "$135",
           "corp": "$145",
-          "npc": "$145"
+          "npc": "$50"
         },
         "Amendment": {
           "bizee": "$99",
@@ -7733,8 +7733,8 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$99",
-          "corp": "$125",
-          "npc": "$125"
+          "corp": "$99",
+          "npc": "$99"
         },
         "Amendment": {
           "bizee": "$99",
@@ -7959,7 +7959,7 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$312",
-          "corp": "$412",
+          "corp": "$312",
           "npc": "$312"
         },
         "Amendment": {
@@ -8186,7 +8186,7 @@
           "bizee": "$199",
           "llc": "$275",
           "corp": "$275",
-          "npc": "$275"
+          "npc": "$75"
         },
         "Amendment": {
           "bizee": "$99",
@@ -8862,9 +8862,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$145",
+          "llc": "$146",
           "corp": "$171",
-          "npc": "$150"
+          "npc": "$42"
         },
         "Amendment": {
           "bizee": "$99",
@@ -9090,7 +9090,7 @@
           "bizee": "$199",
           "llc": "$769",
           "corp": "$769",
-          "npc": "$128"
+          "npc": "$129"
         },
         "Amendment": {
           "bizee": "$99",
@@ -9314,9 +9314,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$307",
+          "llc": "$308",
           "corp": "$615",
-          "npc": "$600"
+          "npc": "$615"
         },
         "Amendment": {
           "bizee": "$99",
@@ -9542,7 +9542,7 @@
           "bizee": "$199",
           "llc": "$750",
           "corp": "$750",
-          "npc": "$750"
+          "npc": "$25"
         },
         "Amendment": {
           "bizee": "$99",
@@ -9766,9 +9766,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$70",
-          "corp": "$70",
-          "npc": "$70"
+          "llc": "$59",
+          "corp": "$59",
+          "npc": "$59"
         },
         "Amendment": {
           "bizee": "$99",
@@ -10219,7 +10219,7 @@
         "Foreign Qualification": {
           "bizee": "$199",
           "llc": "$200",
-          "corp": "$300",
+          "corp": "$175",
           "npc": "$175"
         },
         "Amendment": {
@@ -10446,7 +10446,7 @@
           "bizee": "$199",
           "llc": "$200",
           "corp": "$200",
-          "npc": "$200"
+          "npc": "$155"
         },
         "Amendment": {
           "bizee": "$99",
@@ -10670,9 +10670,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$181",
-          "corp": "$200",
-          "npc": "$100"
+          "llc": "$185",
+          "corp": "$133",
+          "npc": "$82"
         },
         "Amendment": {
           "bizee": "$99",
@@ -10896,9 +10896,9 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$100",
-          "corp": "$200",
-          "npc": "$45"
+          "llc": "$103",
+          "corp": "$103",
+          "npc": "$103"
         },
         "Amendment": {
           "bizee": "$99",
@@ -11350,7 +11350,7 @@
           "bizee": "$199",
           "llc": "$220",
           "corp": "$220",
-          "npc": "$220"
+          "npc": "$80"
         },
         "Amendment": {
           "bizee": "$99",
