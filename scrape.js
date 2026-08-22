@@ -267,24 +267,22 @@ async function extractStateData(page) {
                 const cells = row.querySelectorAll('td');
                 if (cells.length >= 2) {
                     const requirement = cells[0].textContent.trim();
-                    if (requirement === 'Company Address required?' || requirement === 'Automatic Articles launch' || requirement === 'NAICS code required?') {
-                        const nestedTable = cells[1].querySelector('table');
-                        if (nestedTable) {
-                            processingNestedTable = true;
-                            nestedTable.querySelectorAll('tr').forEach(nestedRow => {
-                                const nestedCells = nestedRow.querySelectorAll('td');
-                                if (nestedCells.length >= 3) {
-                                    const llcText = nestedCells[0].textContent.replace(/\s+/g, ' ').trim();
-                                    const corpText = nestedCells[1].textContent.replace(/\s+/g, ' ').trim();
-                                    const npcText = nestedCells[2].textContent.replace(/\s+/g, ' ').trim();
-                                    const llcValue = nestedCells[0].querySelector('a')?.textContent.trim() || '';
-                                    const corpValue = nestedCells[1].querySelector('a')?.textContent.trim() || '';
-                                    const npcValue = nestedCells[2].querySelector('a')?.textContent.trim() || '';
-                                    companyAddress[requirement] = `${llcText} ${llcValue}: ${corpText} ${corpValue}: ${npcText} ${npcValue}`;
-                                }
-                            });
-                            processingNestedTable = false;
-                        }
+                    const nestedTable = cells[1].querySelector('table');
+                    if (nestedTable) {
+                        processingNestedTable = true;
+                        nestedTable.querySelectorAll('tr').forEach(nestedRow => {
+                            const nestedCells = nestedRow.querySelectorAll('td');
+                            if (nestedCells.length >= 3) {
+                                const llcText = nestedCells[0].textContent.replace(/\s+/g, ' ').trim();
+                                const corpText = nestedCells[1].textContent.replace(/\s+/g, ' ').trim();
+                                const npcText = nestedCells[2].textContent.replace(/\s+/g, ' ').trim();
+                                const llcValue = nestedCells[0].querySelector('a')?.textContent.trim() || '';
+                                const corpValue = nestedCells[1].querySelector('a')?.textContent.trim() || '';
+                                const npcValue = nestedCells[2].querySelector('a')?.textContent.trim() || '';
+                                companyAddress[requirement] = `${llcText} ${llcValue}: ${corpText} ${corpValue}: ${npcText} ${npcValue}`;
+                            }
+                        });
+                        processingNestedTable = false;
                     } else if (!processingNestedTable) {
                         const value = cells[1].textContent.trim();
                         const excludedItems = ['Company Address', 'Entities authorized to use a copy of Company Address:', 'Order flows to enable the County validation'];
