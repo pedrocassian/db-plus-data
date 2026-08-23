@@ -260,17 +260,24 @@ async function extractStateData(page) {
 
         // Extract company address requirements
         const companyAddress = {};
-        let processingNestedTable = false;
+        // querySelectorAll('tr') below returns every <tr> in the address
+        // table, including the rows inside a nested per-entity table — so
+        // once a nested table is processed, its own rows must be tracked by
+        // identity and skipped when the outer loop reaches them, or they get
+        // re-parsed as bogus top-level entries (reading only the first two
+        // of their 3 cells).
+        const nestedRowsToSkip = new Set();
         if (timeTables.length > 2) {
             const addressTable = timeTables[2];
             addressTable.querySelectorAll('tr').forEach(row => {
+                if (nestedRowsToSkip.has(row)) return;
                 const cells = row.querySelectorAll('td');
                 if (cells.length >= 2) {
                     const requirement = cells[0].textContent.trim();
                     const nestedTable = cells[1].querySelector('table');
                     if (nestedTable) {
-                        processingNestedTable = true;
                         nestedTable.querySelectorAll('tr').forEach(nestedRow => {
+                            nestedRowsToSkip.add(nestedRow);
                             const nestedCells = nestedRow.querySelectorAll('td');
                             if (nestedCells.length >= 3) {
                                 const llcText = nestedCells[0].textContent.replace(/\s+/g, ' ').trim();
@@ -282,8 +289,7 @@ async function extractStateData(page) {
                                 companyAddress[requirement] = `${llcText} ${llcValue}: ${corpText} ${corpValue}: ${npcText} ${npcValue}`;
                             }
                         });
-                        processingNestedTable = false;
-                    } else if (!processingNestedTable) {
+                    } else {
                         const value = cells[1].textContent.trim();
                         const excludedItems = ['Company Address', 'Entities authorized to use a copy of Company Address:', 'Order flows to enable the County validation'];
                         const isDuplicateEntry = (value.includes('LLC') && value.includes('CORPS') && !requirement.includes('launch')) ||
