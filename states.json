@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T13:03:26.295Z",
+  "lastUpdated": "2026-08-28T13:03:24.529Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -60,9 +60,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$104",
-          "corp": "$104",
-          "npc": "$104"
+          "llc": "$105",
+          "corp": "$105",
+          "npc": "$105"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -513,8 +513,8 @@
         "Change of Registered Agent": {
           "bizee": "$99",
           "llc": "$7",
-          "corp": "$7",
-          "npc": "$7"
+          "corp": "$0",
+          "npc": "$0"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -964,9 +964,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$25",
+          "llc": "$20",
           "corp": "$25",
-          "npc": "$25"
+          "npc": "$20"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -1418,7 +1418,7 @@
           "bizee": "$99",
           "llc": "$50",
           "corp": "$50",
-          "npc": "$50"
+          "npc": "$20"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -2321,8 +2321,8 @@
         "Change of Registered Agent": {
           "bizee": "$99",
           "llc": "$26",
-          "corp": "$25",
-          "npc": "$25"
+          "corp": "$26",
+          "npc": "$26"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -2774,7 +2774,7 @@
           "bizee": "$99",
           "llc": "$26",
           "corp": "$26",
-          "npc": "$26"
+          "npc": "$6"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -3452,7 +3452,7 @@
           "bizee": "$99",
           "llc": "$35",
           "corp": "$35",
-          "npc": "$25"
+          "npc": "$20"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -4130,7 +4130,7 @@
           "bizee": "$99",
           "llc": "$35",
           "corp": "$35",
-          "npc": "$35"
+          "npc": "$15"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -4580,9 +4580,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$25",
-          "corp": "$25",
-          "npc": "$25"
+          "llc": "$0",
+          "corp": "$0",
+          "npc": "$13"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -5484,9 +5484,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$12",
-          "corp": "$12",
-          "npc": "$12"
+          "llc": "$11",
+          "corp": "$11",
+          "npc": "$11"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -5936,9 +5936,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$30",
-          "corp": "$30",
-          "npc": "$30"
+          "llc": "$27",
+          "corp": "$27",
+          "npc": "$27"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -6616,7 +6616,7 @@
           "bizee": "$99",
           "llc": "$28",
           "corp": "$28",
-          "npc": "$25"
+          "npc": "$28"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -6840,9 +6840,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$20",
-          "corp": "$25",
-          "npc": "$25"
+          "llc": "$22",
+          "corp": "$27",
+          "npc": "$12"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -7066,9 +7066,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$60",
-          "corp": "$60",
-          "npc": "$35"
+          "llc": "$35",
+          "corp": "$35",
+          "npc": "$25"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -7294,7 +7294,7 @@
           "bizee": "$99",
           "llc": "$13",
           "corp": "$13",
-          "npc": "$13"
+          "npc": "$8"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -8650,7 +8650,7 @@
           "bizee": "$99",
           "llc": "$22",
           "corp": "$22",
-          "npc": "$22"
+          "npc": "$12"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -9497,19 +9497,19 @@
     "TX": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$300",
+          "stateFee": "$309",
           "expeditedFee": "$50"
         },
         "S-Corporation": {
-          "stateFee": "$300",
+          "stateFee": "$309",
           "expeditedFee": "§\n                        \n                        $50"
         },
         "C-Corporation": {
-          "stateFee": "$300",
+          "stateFee": "$309",
           "expeditedFee": "$50"
         },
         "Nonprofit": {
-          "stateFee": "$25",
+          "stateFee": "$26",
           "expeditedFee": "$50"
         }
       },
@@ -9540,33 +9540,33 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$750",
-          "corp": "$750",
-          "npc": "$25"
+          "llc": "$773",
+          "corp": "$773",
+          "npc": "$26"
         },
         "Amendment": {
           "bizee": "$99",
-          "llc": "$150",
-          "corp": "$150",
-          "npc": "$25"
+          "llc": "$155",
+          "corp": "$155",
+          "npc": "$26"
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$15",
-          "corp": "$15",
-          "npc": "$15"
+          "llc": "$16",
+          "corp": "$16",
+          "npc": "$6"
         },
         "Assumed Business Name": {
           "bizee": "$99",
-          "llc": "$25",
-          "corp": "$25",
-          "npc": "$25"
+          "llc": "$26",
+          "corp": "$26",
+          "npc": "$26"
         },
         "Good Standing": {
           "bizee": "$99",
-          "llc": "$25",
-          "corp": "$25",
-          "npc": "$25"
+          "llc": "$16",
+          "corp": "$16",
+          "npc": "$16"
         },
         "Annual Report": {
           "bizee": "$129",
@@ -9576,15 +9576,15 @@
         },
         "Reinstatement": {
           "bizee": "$199",
-          "llc": "$175",
-          "corp": "$175",
-          "npc": "$175"
+          "llc": "$181",
+          "corp": "$181",
+          "npc": "$181"
         },
         "Dissolution": {
           "bizee": "$249",
-          "llc": "$91",
-          "corp": "$91",
-          "npc": "$91"
+          "llc": "$94",
+          "corp": "$94",
+          "npc": "$94"
         },
         "Sales Tax Registration": {
           "bizee": "$199",
@@ -9778,9 +9778,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$37",
-          "corp": "$37",
-          "npc": "$37"
+          "llc": "$17",
+          "corp": "$17",
+          "npc": "$17"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -10005,7 +10005,7 @@
         "Change of Registered Agent": {
           "bizee": "$99",
           "llc": "$35",
-          "corp": "$25",
+          "corp": "$50",
           "npc": "$35"
         },
         "Assumed Business Name": {
@@ -10456,9 +10456,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$10",
-          "corp": "$10",
-          "npc": "$10"
+          "llc": "$0",
+          "corp": "$0",
+          "npc": "$0"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -10682,9 +10682,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$15",
-          "corp": "$15",
-          "npc": "$15"
+          "llc": "$16",
+          "corp": "$16",
+          "npc": "$16"
         },
         "Assumed Business Name": {
           "bizee": "$99",
@@ -10908,9 +10908,9 @@
         },
         "Change of Registered Agent": {
           "bizee": "$99",
-          "llc": "$10",
-          "corp": "$10",
-          "npc": "$10"
+          "llc": "$11",
+          "corp": "$11",
+          "npc": "$11"
         },
         "Assumed Business Name": {
           "bizee": "$299",
@@ -11362,7 +11362,7 @@
           "bizee": "$99",
           "llc": "$50",
           "corp": "$50",
-          "npc": "$50"
+          "npc": "$40"
         },
         "Assumed Business Name": {
           "bizee": "$99",
