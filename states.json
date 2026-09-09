@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T13:03:26.417Z",
+  "lastUpdated": "2026-09-09T13:03:24.440Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -710,7 +710,7 @@
         },
         "Nonprofit": {
           "normal": "3 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "6 Business Days"
         }
       },
       "companyAddress": {
@@ -928,11 +928,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "3 Business Days"
+          "expedited": "5 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "3 Business Days"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -5222,11 +5222,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "1 Business Day"
+          "expedited": "2 Business Day"
         },
         "Corporations": {
           "normal": "3 Weeks",
-          "expedited": "1 Business Day"
+          "expedited": "2 Business Day"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -6804,7 +6804,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "9 Business Days"
+          "expedited": "7 Business Days"
         },
         "Corporations": {
           "normal": "5 weeks",
@@ -8394,7 +8394,7 @@
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "6 Business Days"
         }
       },
       "companyAddress": {
@@ -9516,7 +9516,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "3 Business Days"
+          "expedited": "2 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -9524,7 +9524,7 @@
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "3 Business Days"
+          "expedited": "2 Business Days"
         }
       },
       "companyAddress": {
