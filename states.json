@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T13:03:20.795Z",
+  "lastUpdated": "2026-09-14T13:03:24.400Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -311,8 +311,8 @@
         "Reinstatement": {
           "bizee": "$199",
           "llc": "$100",
-          "corp": "$0",
-          "npc": "$0"
+          "corp": "$100",
+          "npc": "$25"
         },
         "Dissolution": {
           "bizee": "$199",
@@ -385,8 +385,8 @@
         },
         "Reinstatement": {
           "llc": "YES",
-          "corp": "NO",
-          "npc": "NO"
+          "corp": "YES",
+          "npc": "YES"
         },
         "Dissolution": {
           "llc": "YES",
@@ -1660,7 +1660,7 @@
         },
         "Annual Report": {
           "bizee": "$129",
-          "llc": "$300",
+          "llc": "$400",
           "corp": "$450",
           "npc": "$25"
         },
@@ -1672,7 +1672,7 @@
         },
         "Dissolution": {
           "bizee": "$199",
-          "llc": "$553",
+          "llc": "$653",
           "corp": "$533",
           "npc": "$533"
         },
@@ -6865,7 +6865,7 @@
         "Reinstatement": {
           "bizee": "$199",
           "llc": "$0",
-          "corp": "$0",
+          "corp": "$200",
           "npc": "$0"
         },
         "Dissolution": {
@@ -6939,7 +6939,7 @@
         },
         "Reinstatement": {
           "llc": "NO",
-          "corp": "NO",
+          "corp": "YES",
           "npc": "NO"
         },
         "Dissolution": {
@@ -10556,7 +10556,7 @@
         "Reinstatement": {
           "llc": "YES",
           "corp": "YES",
-          "npc": "NO"
+          "npc": "YES"
         },
         "Dissolution": {
           "llc": "YES",
