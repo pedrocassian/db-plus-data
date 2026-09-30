@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T13:03:27.808Z",
+  "lastUpdated": "2026-09-30T13:03:33.585Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -928,7 +928,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -3847,20 +3847,20 @@
     "LA": {
       "formationFees": {
         "LLC": {
-          "stateFee": "$105",
-          "expeditedFee": "$100"
+          "stateFee": "$130",
+          "expeditedFee": "$110"
         },
         "S-Corporation": {
-          "stateFee": "$75",
-          "expeditedFee": "§\n                        \n                        $100"
+          "stateFee": "$100",
+          "expeditedFee": "§\n                        \n                        $110"
         },
         "C-Corporation": {
-          "stateFee": "$75",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$110"
         },
         "Nonprofit": {
-          "stateFee": "$80",
-          "expeditedFee": "$100"
+          "stateFee": "$100",
+          "expeditedFee": "$110"
         }
       },
       "formationTimes": {
@@ -3890,51 +3890,51 @@
       "miscFilingFees": {
         "Foreign Qualification": {
           "bizee": "$199",
-          "llc": "$155",
-          "corp": "$155",
-          "npc": "$155"
+          "llc": "$190",
+          "corp": "$160",
+          "npc": "$160"
         },
         "Amendment": {
           "bizee": "$99",
-          "llc": "$150",
-          "corp": "$150",
-          "npc": "$150"
+          "llc": "$165",
+          "corp": "$135",
+          "npc": "$135"
         },
         "Change of Registered Agent": {
+          "bizee": "$99",
+          "llc": "$35",
+          "corp": "$35",
+          "npc": "$35"
+        },
+        "Assumed Business Name": {
+          "bizee": "$99",
+          "llc": "$100",
+          "corp": "$100",
+          "npc": "$100"
+        },
+        "Good Standing": {
           "bizee": "$99",
           "llc": "$30",
           "corp": "$30",
           "npc": "$30"
         },
-        "Assumed Business Name": {
-          "bizee": "$99",
-          "llc": "$80",
-          "corp": "$80",
-          "npc": "$80"
-        },
-        "Good Standing": {
-          "bizee": "$99",
-          "llc": "$25",
-          "corp": "$25",
-          "npc": "$25"
-        },
         "Annual Report": {
           "bizee": "$129",
-          "llc": "$35",
-          "corp": "$35",
-          "npc": "$15"
+          "llc": "$40",
+          "corp": "$40",
+          "npc": "$40"
         },
         "Reinstatement": {
           "bizee": "$199",
           "llc": "$135",
-          "corp": "$65",
+          "corp": "$95",
           "npc": "$0"
         },
         "Dissolution": {
           "bizee": "$199",
-          "llc": "$105",
-          "corp": "$75",
-          "npc": "$75"
+          "llc": "$130",
+          "corp": "$100",
+          "npc": "$100"
         },
         "Sales Tax Registration": {
           "bizee": "$0",
@@ -6804,7 +6804,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "4 Business Days"
         },
         "Corporations": {
           "normal": "5 weeks",
@@ -7256,7 +7256,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "4 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
