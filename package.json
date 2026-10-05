@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Daily scraper for DB+ resource guide state data",
   "scripts": {
+    "daily": "node daily.js",
     "scrape": "node scrape.js",
     "login": "node scrape.js --login",
     "sync-obsidian": "node sync-obsidian.js",
