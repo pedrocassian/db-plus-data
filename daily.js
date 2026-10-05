@@ -89,9 +89,13 @@ function main() {
     if (res.status !== 0) throw new Error(`scrape.js exited with code ${res.status}`);
 
     if (git('status --porcelain -- states.json')) {
+        // states.json changes every successful run now (lastChecked), so
+        // label commits by whether the data itself changed.
+        const day = new Date().toISOString().slice(0, 10);
+        const dataChanged = /^[+-]\s+"(?!lastChecked)/m.test(git('diff -U0 -- states.json'));
         git('add states.json');
-        git(`commit -m "Update state data ${new Date().toISOString().slice(0, 10)}"`);
-        log('states.json changed — committed.');
+        git(`commit -m "${dataChanged ? 'Update state data' : 'Check state data (no changes)'} ${day}"`);
+        log(dataChanged ? 'Data changed — committed.' : 'No data changes — committed lastChecked.');
     } else {
         log('No data changes.');
     }

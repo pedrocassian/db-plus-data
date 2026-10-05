@@ -533,10 +533,11 @@ async function main() {
         const elapsed = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
 
         // Check for changes against existing data
+        let existing = null;
         let dataChanged = true;
         if (fs.existsSync(OUTPUT_FILE)) {
             try {
-                const existing = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'));
+                existing = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf-8'));
                 dataChanged = JSON.stringify(existing.states) !== JSON.stringify(allData);
             } catch (e) {
                 dataChanged = true;
@@ -549,22 +550,28 @@ async function main() {
             console.log(`Failed: ${failed.join(', ')}`);
         }
 
-        if (dataChanged) {
-            const output = {
-                lastUpdated: new Date().toISOString(),
-                stateCount: Object.keys(allData).length,
-                states: allData
-            };
-            fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
-            console.log(`Output: ${OUTPUT_FILE}`);
+        // lastUpdated = when the data last CHANGED; lastChecked = when the
+        // scrape last completed. Agent+'s Resource Guide warns from
+        // lastChecked, so a quiet week doesn't look like a broken scraper
+        // (and a broken scraper can't hide behind "no changes").
+        const now = new Date().toISOString();
+        const output = {
+            lastUpdated: dataChanged ? now : existing.lastUpdated,
+            lastChecked: now,
+            stateCount: Object.keys(allData).length,
+            states: allData
+        };
+        fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
+        console.log(`Output: ${OUTPUT_FILE}`);
 
+        if (dataChanged) {
             // Sync to Obsidian if available
             if (fs.existsSync(OBSIDIAN_DIR)) {
                 console.log('Data changed — syncing to Obsidian...');
                 syncToObsidian();
             }
         } else {
-            console.log('No data changes detected — skipping write and Obsidian sync');
+            console.log('No data changes — recorded lastChecked only, skipping Obsidian sync');
         }
 
     } catch (err) {
