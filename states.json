@@ -1,5 +1,6 @@
 {
-  "lastUpdated": "2026-10-01T13:03:19.846Z",
+  "lastUpdated": "2026-10-05T17:23:28.647Z",
+  "lastChecked": "2026-10-05T17:23:28.647Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -37,13 +38,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "AGENT, EIN, MEMBER, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -263,13 +263,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -489,13 +488,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -715,13 +713,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -941,13 +938,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "YES",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -1167,13 +1163,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -1393,13 +1388,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "YES",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -1619,13 +1613,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    YES"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS YES : NPC YES "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -1832,7 +1825,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "5 Business Days"
+          "expedited": "6 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -1845,13 +1838,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "YES",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -2071,13 +2063,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "YES",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -2297,13 +2288,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -2523,13 +2513,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -2749,13 +2738,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -2975,13 +2963,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -3201,13 +3188,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -3427,13 +3413,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "YES",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -3653,13 +3638,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -3879,13 +3863,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -4105,13 +4088,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -4331,13 +4313,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -4557,13 +4538,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -4783,13 +4763,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -5009,13 +4988,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -5222,11 +5200,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         },
         "Corporations": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         },
         "Nonprofit": {
           "normal": "3 Weeks",
@@ -5235,13 +5213,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -5461,13 +5438,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -5687,13 +5663,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -5913,13 +5888,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -6139,13 +6113,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "AGENT, EIN, MEMBER, OFFICER, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -6352,11 +6325,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "6 Weeks",
-          "expedited": "13 Business Days"
+          "expedited": "12 Business Days"
         },
         "Corporations": {
           "normal": "6 Weeks",
-          "expedited": "11 Business Days"
+          "expedited": "10 Business Days"
         },
         "Nonprofit": {
           "normal": "6 Weeks",
@@ -6365,13 +6338,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -6591,13 +6563,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -6817,13 +6788,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -7043,13 +7013,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -7269,13 +7238,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -7495,13 +7463,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -7708,11 +7675,11 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "1 Business Day"
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -7721,13 +7688,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -7947,13 +7913,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -8173,13 +8138,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -8399,13 +8363,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -8625,13 +8588,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -8851,13 +8813,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -9077,13 +9038,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -9303,13 +9263,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "YES",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -9529,13 +9488,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "YES",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "NOT REQUIRED",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -9755,13 +9713,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -9981,13 +9938,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -10207,13 +10163,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -10433,13 +10388,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -10659,13 +10613,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "YES",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -10885,13 +10838,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -11111,13 +11063,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "YES",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
@@ -11337,13 +11288,12 @@
       },
       "companyAddress": {
         "Company Address required?": "LLC YES : CORPS YES : NPC YES ",
-        "LLC\n                                \n                                YES": "CORPS\n                                \n                                YES",
         "In-State Address required?": "NO",
         "PO Box accepted?": "NO",
         "Mailing Address required?": "NO",
         "Listed on Articles is required?": "YES",
         "Entities authorized to use a copy of Company Address": "EIN, MEMBER, AGENT, SHAREHOLDER",
-        "LLC\n                                \n                                                                    NO": "CORPS\n                                \n                                                                    NO"
+        "AR requires an Alt Company Address if the VA and RA address are the same": "LLC NO : CORPS NO : NPC NO "
       },
       "miscFilingFees": {
         "Foreign Qualification": {
