@@ -5,3 +5,9 @@ gmail-config.json
 .claude/
 test-login.js
 daily.log
+
+# launchd scraper logs
+scrape.log
+launchd.out.log
+launchd.err.log
+run-scrape.sh
