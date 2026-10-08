@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-05T17:23:28.647Z",
-  "lastChecked": "2026-10-07T13:03:27.287Z",
+  "lastUpdated": "2026-10-08T13:03:22.378Z",
+  "lastChecked": "2026-10-08T13:03:22.378Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -9475,15 +9475,15 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "7 Business Day"
+          "expedited": "3 Business Day"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "7 Business Days"
+          "expedited": "3 Business Days"
         }
       },
       "companyAddress": {
@@ -9522,9 +9522,9 @@
         },
         "Good Standing": {
           "bizee": "$99",
-          "llc": "$16",
-          "corp": "$16",
-          "npc": "$16"
+          "llc": "$17",
+          "corp": "$17",
+          "npc": "$17"
         },
         "Annual Report": {
           "bizee": "$129",
@@ -11340,9 +11340,9 @@
         },
         "Dissolution": {
           "bizee": "$199",
-          "llc": "$220",
-          "corp": "$220",
-          "npc": "$220"
+          "llc": "$5",
+          "corp": "$5",
+          "npc": "$5"
         },
         "Sales Tax Registration": {
           "bizee": "$0",
