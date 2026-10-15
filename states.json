@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-08T13:03:22.378Z",
-  "lastChecked": "2026-10-14T13:03:27.424Z",
+  "lastUpdated": "2026-10-15T13:03:26.890Z",
+  "lastChecked": "2026-10-15T13:03:26.890Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -5200,7 +5200,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "1 Business Day"
+          "expedited": "2 Business Days"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -7225,7 +7225,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "4 Business Days"
+          "expedited": "3 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -7233,7 +7233,7 @@
         },
         "Nonprofit": {
           "normal": "4 Weeks",
-          "expedited": "8 Business Days"
+          "expedited": "7 Business Days"
         }
       },
       "companyAddress": {
@@ -7675,7 +7675,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "1 Business Day"
+          "expedited": "2 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
@@ -8125,7 +8125,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Days"
+          "expedited": "1 Business Day"
         },
         "Corporations": {
           "normal": "3 Weeks",
@@ -8133,7 +8133,7 @@
         },
         "Nonprofit": {
           "normal": "3 Weeks",
-          "expedited": "2 Business Day"
+          "expedited": "1 Business Day"
         }
       },
       "companyAddress": {
@@ -9475,7 +9475,7 @@
       "formationTimes": {
         "LLC": {
           "normal": "4 Weeks",
-          "expedited": "3 Business Days"
+          "expedited": "5 Business Days"
         },
         "Corporations": {
           "normal": "4 Weeks",
