@@ -418,6 +418,14 @@ async function extractStateData(page) {
                                 if (el.closest('li') && el.tagName !== 'LI') return;
                                 const text = textOf(el);
                                 if (!text) return;
+                                // A bold block that starts with a known label is a field,
+                                // not a heading (TX Nonprofit: "Frequency" + "Both reports
+                                // are due…" in one bold block).
+                                const labelled = text.match(/^(Frequency|Due Date|Due|State Fee|Filing Fee|Important|Note)\s*:?\s*([\s\S]+)$/i);
+                                if (isHeading(el) && labelled && !/^H[1-6]$/.test(el.tagName)) {
+                                    ensure().fields.push({ label: labelled[1], value: labelled[2].trim() });
+                                    return;
+                                }
                                 if (isHeading(el)) {
                                     current = { title: text, fields: [], notes: [] };
                                     sections.push(current);
@@ -441,10 +449,13 @@ async function extractStateData(page) {
                             }
                             const first = sections[0];
                             const requirementInfo = { title: first.title, frequency: '', dueDate: '', stateFee: '', filingFee: '', sections };
-                            first.fields.forEach((f) => {
+                            // Each top-level field from the first requirement that has
+                            // it (AK: "Initial Report" has no Frequency; the Annual
+                            // Report after it does).
+                            sections.forEach((sec) => sec.fields.forEach((f) => {
                                 const key = KNOWN[f.label.toLowerCase()];
                                 if (key && !requirementInfo[key]) requirementInfo[key] = f.value;
-                            });
+                            }));
                             ongoingFilingRequirements[entityType] = requirementInfo;
                         }
                     }
