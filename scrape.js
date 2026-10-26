@@ -74,6 +74,32 @@ async function login(page, interactive = false) {
         return true;
     }
 
+    // No saved credentials (BIZEE_USERNAME/BIZEE_PASSWORD unset): in --login
+    // mode, let the person log in by hand in the opened window, 2FA and all,
+    // and pick the session up once the page leaves /login. Unattended runs
+    // can't do that — fail with a clear message instead of submitting an
+    // empty form.
+    if (!USERNAME || !PASSWORD) {
+        if (!interactive) {
+            console.log('Session expired and no BIZEE_USERNAME/BIZEE_PASSWORD set — run "npm run login" to log in by hand.');
+            return false;
+        }
+        console.log('\n👉 Log in to Bizee in the browser window that just opened (including the verification code).');
+        console.log('   Waiting up to 10 minutes...');
+        const deadline = Date.now() + 10 * 60 * 1000;
+        while (Date.now() < deadline) {
+            await new Promise(r => setTimeout(r, 2000));
+            const url = page.url();
+            if (!url.includes('/login') && !url.includes('verif')) {
+                console.log('Login successful');
+                await saveCookies(page);
+                return true;
+            }
+        }
+        console.log('Timed out waiting for a manual login.');
+        return false;
+    }
+
     // Fill login form
     await page.waitForSelector('input[name="username"]', { timeout: 10000 });
     console.log('Found username field, filling form...');
