@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-23T13:03:21.122Z",
-  "lastChecked": "2026-10-23T13:03:21.122Z",
+  "lastUpdated": "2026-10-26T17:25:50.709Z",
+  "lastChecked": "2026-10-26T17:25:50.709Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -194,21 +194,73 @@
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due",
+                  "value": "Annual Year: April 15\nFiscal Year: 3½ months after beginning of tax year"
+                },
+                {
+                  "label": "Note",
+                  "value": "LLCs elected to be taxed as corporations follow corporation rules."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due",
+                  "value": "Annual Year: April 15\nFiscal Year: 3½ months after beginning of tax year"
+                },
+                {
+                  "label": "Note",
+                  "value": "Schedule AL-CAR filed with Business Privilege Tax Return is accepted in lieu of a separate Annual Report. C Corps must file Form CPT."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "",
           "frequency": "",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "",
+              "fields": [
+                {
+                  "label": "Compliance Requirements",
+                  "value": "Nonprofit Corporations are not subject to annual report filings."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -416,24 +468,150 @@
       "ongoingFilingRequirements": {
         "LLC Requirement": {
           "title": "Initial Report",
-          "frequency": "Biennially",
-          "dueDate": "By January 2nd of the filing year.",
-          "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "frequency": "",
+          "dueDate": "Within 6 months of the date of formation.",
+          "stateFee": "",
+          "filingFee": "$0",
+          "sections": [
+            {
+              "title": "Initial Report",
+              "fields": [
+                {
+                  "label": "Due Date",
+                  "value": "Within 6 months of the date of formation."
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "$0"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By January 2nd of the filing year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Entities registered in even-numbered years must file in even-numbered years.\nEntities registered in odd-numbered years must file in odd-numbered years."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Initial Report",
-          "frequency": "Biennially",
-          "dueDate": "By January 2nd of the filing year.",
-          "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "frequency": "",
+          "dueDate": "Within 6 months of the date of formation.",
+          "stateFee": "",
+          "filingFee": "$0",
+          "sections": [
+            {
+              "title": "Initial Report",
+              "fields": [
+                {
+                  "label": "Due Date",
+                  "value": "Within 6 months of the date of formation."
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "$0"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By January 2nd of the filing year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Entities registered in even-numbered years must file in even-numbered years.\nEntities registered in odd-numbered years must file in odd-numbered years."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Initial Report",
-          "frequency": "Biennially",
-          "dueDate": "By January 2nd of the filing year.",
-          "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "frequency": "",
+          "dueDate": "Within 6 months of the date of formation.",
+          "stateFee": "",
+          "filingFee": "$0",
+          "sections": [
+            {
+              "title": "Initial Report",
+              "fields": [
+                {
+                  "label": "Due Date",
+                  "value": "Within 6 months of the date of formation."
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "$0"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By January 2nd of the filing year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Entities registered in even-numbered years must file in even-numbered years.\nEntities registered in odd-numbered years must file in odd-numbered years."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -644,21 +822,99 @@
           "frequency": "No annual report is due for LLCs at this time.",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "No annual report is due for LLCs at this time."
+                },
+                {
+                  "label": "Important",
+                  "value": "Arizona requires that you publish a notice of filing of your Articles of Organization or alternatively, you may publish the Articles of Organization in their entirety. The publication must be in a newspaper in general circulation in the county of the known place of business in Arizona for 3 consecutive publications. The publication must be filed within 60 days of the date of organization. The LLC may be subject to administrative dissolution if it fails to publish."
+                }
+              ],
+              "notes": [
+                "Where do I publish the document? The A.C.C. provides a list of newspapers that have attested to the A.C.C. that they meet the statutory criteria for publishing documents. Upon publishing, you will receive an Affidavit of Publication. It is not required, but you may send the Affidavit of Publication you receive from the newspaper to the A.C.C. for placement into the entity’s public record. If you do not submit the Affidavit of Publication to the A.C.C., you should retain it as part of your entity’s permanent record.\n*We do not assist with filing the Publication Requirement"
+              ]
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Corporations are required to file an Annual Report with the Arizona Corporation Commision. The Annual Report is due by the anniversary date of the filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Corporations are required to file an Annual Report with the Arizona Corporation Commision. The Annual Report is due by the anniversary date of the filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "Arizona requires that you publish the Articles of Incorpration in their entirety. The publication must be in a newspaper in general circulation in the county of the known place of business in Arizona for 3 consecutive publications. The publication must be filed within 60 days of the date of incorporation. The corporation may be subject to administrative dissolution if it fails to publish."
+                }
+              ],
+              "notes": [
+                "Where do I publish the document? The A.C.C. provides a list of newspapers that have attested to the A.C.C. that they meet the statutory criteria for publishing documents. Upon publishing, you will receive an Affidavit of Publication. It is not required, but you may send the Affidavit of Publication you receive from the newspaper to the A.C.C. for placement into the entity’s public record. If you do not submit the Affidavit of Publication to the A.C.C., you should retain it as part of your entity’s permanent record.\n*We do not assist with filing the Publication Requirement"
+              ]
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Corporations are required to file an Annual Report with the Arizona Corporation Commision. The Annual Report is due by the anniversary date of the filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Corporations are required to file an Annual Report with the Arizona Corporation Commision. The Annual Report is due by the anniversary date of the filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "Arizona requires that you publish the Articles of Incorpration in their entirety. The publication must be in a newspaper in general circulation in the county of the known place of business in Arizona for 3 consecutive publications. The publication must be filed within 60 days of the date of incorporation. The corporation may be subject to administrative dissolution if it fails to publish."
+                }
+              ],
+              "notes": [
+                "Where do I publish the document? The A.C.C. provides a list of newspapers that have attested to the A.C.C. that they meet the statutory criteria for publishing documents. Upon publishing, you will receive an Affidavit of Publication. It is not required, but you may send the Affidavit of Publication you receive from the newspaper to the A.C.C. for placement into the entity’s public record. If you do not submit the Affidavit of Publication to the A.C.C., you should retain it as part of your entity’s permanent record.\n*We do not assist with filing the Publication Requirement"
+              ]
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -869,21 +1125,105 @@
           "frequency": "Annually",
           "dueDate": "May 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Initial report due May 1st of the year following formation or qualification."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "May 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Initial report due May 1st of the year following formation or qualification."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "August 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "August 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Initial report due May 1st of the year following formation or qualification."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -1091,24 +1431,136 @@
       "ongoingFilingRequirements": {
         "LLC Requirement": {
           "title": "Statement of Information",
-          "frequency": "Annually",
+          "frequency": "Biennially",
           "dueDate": "During six-month period ending on last day of anniversary month of incorporation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Statement of Information",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "During six-month period ending on last day of anniversary month of incorporation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "The initial Statement of Information filing is due within 90 days of the entity formation date."
+                }
+              ],
+              "notes": []
+            },
+            {
+              "title": "California Franchise Tax",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Franchise Tax Fee",
+                  "value": "$800 (minimum)\nInitial payment is due by 15th day of the 4th month after your LLC is filed. The month your LLC is filed counts as month 1. For example, if you file your LLC in March, you must pay your fee by June 15. Then, every year after your first payment, you must file by April 15 using Form 3522 called the LLC Tax Voucher.\n*We do not assist with filing the Franchise Tax Report"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Statement of Information",
           "frequency": "Annually",
           "dueDate": "During six-month period ending on last day of anniversary month of incorporation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Statement of Information",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "During six-month period ending on last day of anniversary month of incorporation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "The initial Statement of Information filing is due within 90 days of the entity formation date."
+                }
+              ],
+              "notes": []
+            },
+            {
+              "title": "California Franchise Tax",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Fee",
+                  "value": "$800 (minimum)\nNew corporations that incorporate in California are exempt from the 1st year minimum tax; however, corporate owners are still responsible for paying the applicable franchise tax on any net income earned during the 1st year. Starting in the 2nd year, corporations are subject to the annual $800 minimum franchise tax rule.\n*We do not assist in the filing of the Franchise Tax Report"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Statement of Information",
           "frequency": "Biennially",
           "dueDate": "During six-month period ending on last day of anniversary month of incorporation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Statement of Information",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "During six-month period ending on last day of anniversary month of incorporation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "The initial Statement of Information filing is due within 90 days of the entity formation date"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -1319,21 +1771,93 @@
           "frequency": "Annually",
           "dueDate": "Last Day of Anniversary Month",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last Day of Anniversary Month"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last Day of Anniversary Month",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last Day of Anniversary Month"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last Day of Anniversary Month",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last Day of Anniversary Month"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -1544,21 +2068,101 @@
           "frequency": "Annually",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last business day of anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last business day of anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "The initial annual report filing is due within 30 days of the entity formation date"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last business day of anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "$50"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last business day of anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "$50"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -1769,21 +2373,93 @@
           "frequency": "Annually",
           "dueDate": "June 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Delaware Franchise Tax Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Delaware Franchise Tax Report",
           "frequency": "Annually",
           "dueDate": "March 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Delaware Franchise Tax Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "March 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Delaware Franchise Tax Report",
           "frequency": "Annually",
           "dueDate": "March 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Delaware Franchise Tax Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "March 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -1994,21 +2670,93 @@
           "frequency": "Annually",
           "dueDate": "May 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "May 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "May 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -2219,21 +2967,101 @@
           "frequency": "Annually",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "Within 90 days of incorporation, each corporation formed between January 1-October 1 must file an initial annual registration that lists 3 principal officers: CEO, CFO and Secretary. Corporations that have a business start date between October 2-December 31 must file an initial annual registration during the 1st quarter of the year after the business effective date."
+                },
+                {
+                  "label": "Corporation Publication Requirement",
+                  "value": "All corporations must publish a notice of intent to incorporate in a newspaper that is the official legal organ of the county where the initial registered office of the corporation is to be located. The notice should be published once a week for two consecutive weeks and it should contain the name of the corporation, the name of the Registered Agent and the address of the registered office in Georgia."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -2442,23 +3270,95 @@
         "LLC Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:  - January 1 and March 31, the annual report or statement is due by March 31 of each year - April 1 and June 30, the annual report or statement is due by June 30 of each year - July 1 and September 30, the annual report or statement is due by September 30 of each year - October 1 and December 31, the annual report or statement is due by December 31 of each year",
+          "dueDate": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:\n\n- January 1 and March 31, the annual report or statement is due by March 31 of each year\n- April 1 and June 30, the annual report or statement is due by June 30 of each year\n- July 1 and September 30, the annual report or statement is due by September 30 of each year\n- October 1 and December 31, the annual report or statement is due by December 31 of each year",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:\n\n- January 1 and March 31, the annual report or statement is due by March 31 of each year\n- April 1 and June 30, the annual report or statement is due by June 30 of each year\n- July 1 and September 30, the annual report or statement is due by September 30 of each year\n- October 1 and December 31, the annual report or statement is due by December 31 of each year"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:  - January 1 and March 31, the annual report or statement is due by March 31 of each year - April 1 and June 30, the annual report or statement is due by June 30 of each year - July 1 and September 30, the annual report or statement is due by September 30 of each year - October 1 and December 31, the annual report or statement is due by December 31 of each year",
+          "dueDate": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:\n\n- January 1 and March 31, the annual report or statement is due by March 31 of each year\n- April 1 and June 30, the annual report or statement is due by June 30 of each year\n- July 1 and September 30, the annual report or statement is due by September 30 of each year\n- October 1 and December 31, the annual report or statement is due by December 31 of each year",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:\n\n- January 1 and March 31, the annual report or statement is due by March 31 of each year\n- April 1 and June 30, the annual report or statement is due by June 30 of each year\n- July 1 and September 30, the annual report or statement is due by September 30 of each year\n- October 1 and December 31, the annual report or statement is due by December 31 of each year"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:  - January 1 and March 31, the annual report or statement is due by March 31 of each year - April 1 and June 30, the annual report or statement is due by June 30 of each year - July 1 and September 30, the annual report or statement is due by September 30 of each year - October 1 and December 31, the annual report or statement is due by December 31 of each year",
+          "dueDate": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:\n\n- January 1 and March 31, the annual report or statement is due by March 31 of each year\n- April 1 and June 30, the annual report or statement is due by June 30 of each year\n- July 1 and September 30, the annual report or statement is due by September 30 of each year\n- October 1 and December 31, the annual report or statement is due by December 31 of each year",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "The annual report or annual statement due date is dependent on the registration date. If the registration falls between:\n\n- January 1 and March 31, the annual report or statement is due by March 31 of each year\n- April 1 and June 30, the annual report or statement is due by June 30 of each year\n- July 1 and September 30, the annual report or statement is due by September 30 of each year\n- October 1 and December 31, the annual report or statement is due by December 31 of each year"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -2669,21 +3569,93 @@
           "frequency": "Annually",
           "dueDate": "By the end of the anniversary month of registration.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the end of the anniversary month of registration."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "By the end of the anniversary month of registration.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the end of the anniversary month of registration."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "By the end of the anniversary month of registration.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the end of the anniversary month of registration."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -2894,21 +3866,93 @@
           "frequency": "Annually",
           "dueDate": "By the end of the month preceding the registration anniversary month",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the end of the month preceding the registration anniversary month"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "By the end of the month preceding the registration anniversary month",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the end of the month preceding the registration anniversary month"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "By the end of the month preceding the registration anniversary month",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the end of the month preceding the registration anniversary month"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -3119,21 +4163,93 @@
           "frequency": "Biennially",
           "dueDate": "Last day of anniversary month of formation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of formation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "Last day of anniversary month of formation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of formation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "Last day of anniversary month of formation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of formation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -3344,21 +4460,93 @@
           "frequency": "Biennially",
           "dueDate": "April 1st of odd-numbered years.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st of odd-numbered years."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "April 1st of even-numbered years.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st of even-numbered years."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "April 1st of odd-numbered years.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st of odd-numbered years."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -3567,23 +4755,95 @@
         "LLC Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
-          "dueDate": "Calendar Year: April 15Fiscal Year: 15th day of 4th month after close of tax year",
+          "dueDate": "Calendar Year: April 15\n\nFiscal Year: 15th day of 4th month after close of tax year",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Calendar Year: April 15\n\nFiscal Year: 15th day of 4th month after close of tax year"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
-          "dueDate": "Calendar Year: April 15Fiscal Year: 15th day of 4th month after close of tax year",
+          "dueDate": "Calendar Year: April 15\n\nFiscal Year: 15th day of 4th month after close of tax year",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Calendar Year: April 15\n\nFiscal Year: 15th day of 4th month after close of tax year"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
-          "dueDate": "Calendar Year: June 15Fiscal Year: 15th day of 6th month after close of tax year",
+          "dueDate": "Calendar Year: June 15\n\nFiscal Year: 15th day of 6th month after close of tax year",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Calendar Year: June 15\n\nFiscal Year: 15th day of 6th month after close of tax year"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -3794,21 +5054,93 @@
           "frequency": "Annually",
           "dueDate": "Between January 1st and June 30th.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Between January 1st and June 30th."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Between January 1st and June 30th.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Between January 1st and June 30th."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Between January 1st and June 30th.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Between January 1st and June 30th."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -4019,21 +5351,93 @@
           "frequency": "Annually",
           "dueDate": "On or before 1st day of anniversary month of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before 1st day of anniversary month of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "On or before 1st day of anniversary month of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before 1st day of anniversary month of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "On or before 1st day of anniversary month of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before 1st day of anniversary month of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -4244,21 +5648,93 @@
           "frequency": "Annually",
           "dueDate": "June 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "June 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "June 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -4469,21 +5945,93 @@
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -4694,21 +6242,93 @@
           "frequency": "Annually",
           "dueDate": "Anniversary date of formation or registration.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Anniversary date of formation or registration."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "2½ months after close of fiscal year.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "2½ months after close of fiscal year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "November 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "November 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -4919,21 +6539,97 @@
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due",
+                  "value": "February 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "LLCs registered after September 30th of the preceding year are exempt from filing the report in the subsequent year."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "May 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "October 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "October 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -5144,21 +6840,93 @@
           "frequency": "Annually",
           "dueDate": "December 31st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "December 31st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "December 31st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "December 31st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "December 31st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "December 31st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -5369,21 +7137,89 @@
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "As requested but not more than every 5 years.",
           "dueDate": "",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "As requested but not more than every 5 years."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -5594,21 +7430,85 @@
           "frequency": "No report due for LLCs at this time.",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "No report due for LLCs at this time."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "On last day of corporation's anniversary month; must be within 90 days after due date.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Initial Annual Report",
+                  "value": "Corporations are required to file the Initial Annual Report within 90 days of the date of incorporation."
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On last day of corporation's anniversary month; must be within 90 days after due date."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "August 31st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "August 31st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -5819,21 +7719,93 @@
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -6044,21 +8016,101 @@
           "frequency": "Biennially",
           "dueDate": "April 1st of each odd-numbered year.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st of each odd-numbered year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Publication Requirement",
+                  "value": "Domestic Nebraska LLCs must publish a notice of organization, amendment, merger or conversion for three successive weeks in a legal newspaper of general circulation near the designated office of the LLC. The notice of organization should show the name of the LLC, the street address of the designated office and the general nature of the business to be transacted.\n*We do not assist in the filing of the Publication Requirement"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "March 1st of each even-numbered year.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "March 1st of each even-numbered year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Publication Requirement",
+                  "value": "Domestic Nebraska corporations must publish a notice of incorporation, amendment or merger for three successive weeks in a legal newspaper of general circulation in the county where the corporation’s principal office or its registered office is located. The notice should show the corporation name, the number of shares the corporation is authorized to issue, the street address of the corporation’s registered office and the name of its Registered Agent, along with the name and address of each incorporator.\n*We do not assist with filing the publication requirement"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "April 1st of each old-numbered year.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st of each old-numbered year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -6269,21 +8321,105 @@
           "frequency": "Annually",
           "dueDate": "Due by the last day of the anniversary month of filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report and Business License",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Due by the last day of the anniversary month of filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "The Initial Annual Report and Business License are field with the articles of incorportation. As such, the {STATE_FEE} fee is added to the {SERVICE_FEE} filing fee and used to satisfy payment for both the Initial Annual Report and Business License.\n*Client will be responsible for filing Annual Report and Business License in subsequent years."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report and Business License",
           "frequency": "Annually",
           "dueDate": "Due by the last day of the anniversary month of filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report and Business License",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Due by the last day of the anniversary month of filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "The Initial Annual Report and Business License are field with the articles of Incorportation. As such, the {STATE_FEE} fee is added to the {SERVICE_FEE} filing fee and used to satisfy payment for both the Initial Annual Report and Business License.\n*Client will be responsible for filing Annual Report and Business License in subsequent years."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Due by the last day of the anniversary month of filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Due by the last day of the anniversary month of filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "The Initial Annual Report is filed with the Articles of Incorporation. As such, the {STATE_FEE} fee is added to the {SERVICE_FEE} filing fee and used to satisfy payment for the Initial Annual Report.\n*Client will be responsible for filing Annual Report in subsequent years"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -6494,21 +8630,93 @@
           "frequency": "Annually",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Every 5 years",
           "dueDate": "December 31",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Every 5 years"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "December 31"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -6719,21 +8927,93 @@
           "frequency": "Annually",
           "dueDate": "Last day of anniversary month of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last day of anniversary month of Incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of Incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last day of anniversary month of Incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of Incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -6944,21 +9224,81 @@
           "frequency": "New Mexico LLCs are currently not required to file annual reports.",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "New Mexico LLCs are currently not required to file annual reports."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "Before the 15th day of 3rd month after close of fiscal year.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Before the 15th day of 3rd month after close of fiscal year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "Fiscal Year: 15th day of 5th month following close of tax year Calendar Year: May 15",
+          "dueDate": "Fiscal Year: 15th day of 5th month following close of tax year\nCalendar Year: May 15",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Fiscal Year: 15th day of 5th month following close of tax year\nCalendar Year: May 15"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -7169,21 +9509,85 @@
           "frequency": "Biennially",
           "dueDate": "During anniversary month of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "During anniversary month of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Important",
+                  "value": "Within 120 days of registration, new LLCs must publish in two newspapers a copy of the Articles of Organization or a notice related to the formation of the LLC. The newspapers must be designated by the county clerk of the county in which the LLC is located.\n\nAfter publication, the printer or publisher of each newspaper will provide you with an Affidavit of Publication. These, along with the Certificates of Publication, must be submitted to the New York Department of State, Division of Corporations, One Commerce Plaza, 99 Washington Avenue, Albany, NY 12231. The fee for filing the Certificate of Publication is $50.\n\n*We do not assist with filing the Publication Requirement"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "During anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "During anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Nonprofit corporations are currently not required to file annual reports.",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Nonprofit corporations are currently not required to file annual reports."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -7394,21 +9798,81 @@
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Nonprofits are currently not required to file annual reports.",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Nonprofits are currently not required to file annual reports."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -7619,21 +10083,93 @@
           "frequency": "Annually",
           "dueDate": "November 15th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "November 15th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "",
+          "dueDate": "August 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "August 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "",
+          "dueDate": "February 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "February 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -7844,21 +10380,69 @@
           "frequency": "Ohio LLCs are currently not required to file annual reports.",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Ohio LLCs are currently not required to file annual reports."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Ohio corporations are currently not required to file annual reports.",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Ohio corporations are currently not required to file annual reports."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Every 5 years",
           "dueDate": "By the end of the anniversary month of registration.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Every 5 years"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the end of the anniversary month of registration."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -8069,21 +10653,93 @@
           "frequency": "Annually",
           "dueDate": "By the anniversary date of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "By the anniversary date of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "July 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "July 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "July 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "July 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -8294,21 +10950,93 @@
           "frequency": "Annually",
           "dueDate": "On or before the anniversary of LLC's date of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before the anniversary of LLC's date of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "On or before the anniversary of corporation's date of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before the anniversary of corporation's date of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "On or before the anniversary of nonprofit's date of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before the anniversary of nonprofit's date of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -8519,21 +11247,107 @@
           "frequency": "Annually",
           "dueDate": "September 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "September 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "June 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            },
+            {
+              "title": "Publication Requirement",
+              "fields": [
+                {
+                  "label": "Due",
+                  "value": "No due date"
+                },
+                {
+                  "label": "Publication Fee",
+                  "value": "Varies by newspaper\n\nPennsylvania requires corporations to notify the public of its formation by publishing a notice of incorporation, or intent to incorporate, in two newspapers in general circulation (including a legal journal, if possible) in the county where your Registered Agent will be located. The publication must include the proposed name of the corporation and a statement that the corporation will be or has been incorporated under the provisions of the Business Corporation Law of 1988.\n\nThe newspaper will send you an Affidavit of Publication as proof that the publication requirement has been met. You should keep it with your other important company documents in your compliance kit.\n\n*We do not assist with filing the Publication Requirement"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "June 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -8744,21 +11558,93 @@
           "frequency": "Annually",
           "dueDate": "May 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "May 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "May 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "April 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -8969,21 +11855,57 @@
           "frequency": "",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Ongoing Requirements",
+              "fields": [
+                {
+                  "label": "Filing Requirement",
+                  "value": "LLCs have no reporting requirements with the Secretary of State or the Dept. of Revenue, unless the LLC has elected to be taxed as an S corp. In which case, file form SC 1120S to the Department of Revenue."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Ongoing Requirements",
           "frequency": "",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Ongoing Requirements",
+              "fields": [
+                {
+                  "label": "Tax Return",
+                  "value": "Domestic and foreign corporations, as well as professional corporations file SC 1120 Corporation Tax Return. The form has a corporate annual report included on page three. Deliver this form by mail to SC Department of Revenue with the Federal return attached."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Ongoing Requirements",
           "frequency": "",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Ongoing Requirements",
+              "fields": [
+                {
+                  "label": "TAX RETURN",
+                  "value": "Nonprofits file form SC 990-T by mail to the Dept. of Revenue with a copy of the federal return attached."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -9194,21 +12116,93 @@
           "frequency": "Annually",
           "dueDate": "Before 1st day of 2nd month following anniversary month.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Before 1st day of 2nd month following anniversary month."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "During anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "During anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "During anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "During anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -9419,21 +12413,93 @@
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Dates",
+                  "value": "Calendar Year: April 1\nFiscal Year: 1st day of 4th month following close of fiscal year"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Dates",
+                  "value": "Calendar Year: April 1\nFiscal Year: 1st day of 4th month following close of fiscal year"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Dates",
+                  "value": "Calendar Year: April 1\nFiscal Year: 1st day of 4th month following close of fiscal year"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -9644,21 +12710,78 @@
           "frequency": "Annually",
           "dueDate": "Both reports are due between January 1st and no later than May 15th.",
           "stateFee": "",
-          "filingFee": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the LLC."
+          "filingFee": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the LLC.",
+          "sections": [
+            {
+              "title": "Public Information & Franchise Tax Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Both reports are due between January 1st and no later than May 15th."
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the LLC."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Public Information & Franchise Tax Report",
           "frequency": "Annually",
           "dueDate": "Both reports are due between January 1st and no later than May 15th.",
           "stateFee": "",
-          "filingFee": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the Corporation."
+          "filingFee": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the Corporation.",
+          "sections": [
+            {
+              "title": "Public Information & Franchise Tax Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Both reports are due between January 1st and no later than May 15th."
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the Corporation."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Public Information & Franchise Tax Report",
           "frequency": "",
           "dueDate": "",
           "stateFee": "",
-          "filingFee": ""
+          "filingFee": "",
+          "sections": [
+            {
+              "title": "Public Information & Franchise Tax Report",
+              "fields": [],
+              "notes": []
+            },
+            {
+              "title": "FrequencyBoth reports are due between January 1st and no later than May 15th.",
+              "fields": [
+                {
+                  "label": "Note",
+                  "value": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the Corporation."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -9869,21 +12992,93 @@
           "frequency": "Annually",
           "dueDate": "Due by the last day of the anniversary month of filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Due by the last day of the anniversary month of filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Due by the last day of the anniversary month of the filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Due by the last day of the anniversary month of the filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Due by the last day of the anniversary month of the filing.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Due by the last day of the anniversary month of the filing."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -10092,23 +13287,95 @@
         "LLC Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "Calendar Year: March 31 Fiscal Year: Within 2½ months after end of fiscal year.",
+          "dueDate": "Calendar Year: March 31\nFiscal Year: Within 2½ months after end of fiscal year.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Calendar Year: March 31\nFiscal Year: Within 2½ months after end of fiscal year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
-          "dueDate": "Calendar Year: March 15 Fiscal Year: Within 2½ months after end of fiscal year.",
+          "dueDate": "Calendar Year: March 15\nFiscal Year: Within 2½ months after end of fiscal year.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Calendar Year: March 15\nFiscal Year: Within 2½ months after end of fiscal year."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "Between January 1 and April",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Between January 1 and April"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -10319,21 +13586,93 @@
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Registration",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Dates",
+                  "value": "Last day of anniversary month of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last day of anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE} (minimum according to shares)"
+          "filingFee": "{SERVICE_FEE} (minimum according to shares)",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE} (minimum according to shares)"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Dates",
+                  "value": "Last day of anniversary month of incorporation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -10544,21 +13883,93 @@
           "frequency": "Annually",
           "dueDate": "Last day of anniversary month of organization or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of organization or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last day of anniversary month of incorporation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of incorporation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Last day of anniversary month of incorporation or qualification.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Last day of anniversary month of incorporation or qualification."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -10769,21 +14180,93 @@
           "frequency": "Annually",
           "dueDate": "June 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "June 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "June 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -10994,21 +14477,109 @@
           "frequency": "Annually",
           "dueDate": "Based on anniversary date",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Based on anniversary date"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Domestic",
+                  "value": "Jan 1 – Mar 31: Mar 31\nApr 1 – Jun 30: Jun 30\nJul 1 – Sep 30: Sep 30 \nOct 1 – Dec 31: Dec 31"
+                },
+                {
+                  "label": "Foreign",
+                  "value": "During first calendar quarter of each year following calendar year in the LLC becomes registered."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "Based on anniversary date",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "Based on anniversary date"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Domestic",
+                  "value": "Jan 1 – Mar 31: Mar 31\nApr 1 – Jun 30: Jun 30\nJul 1 – Sep 30: Sep 30 \nOct 1 – Dec 31: Dec 31"
+                },
+                {
+                  "label": "Foreign",
+                  "value": "During first calendar quarter of each year following calendar year in which foreign corporation was authorized to transact business."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "June 30th",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "June 30th"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -11219,21 +14790,93 @@
           "frequency": "Annually",
           "dueDate": "On or before 1st day of anniversary month of organization.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before 1st day of anniversary month of organization."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "On or before 1st day of anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before 1st day of anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Annually",
           "dueDate": "On or before 1st day of anniversary month of incorporation.",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Annually"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "On or before 1st day of anniversary month of incorporation."
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
@@ -11444,21 +15087,105 @@
           "frequency": "Biennially",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Initial report is due the year after incorporation or qualification. Reports are then due each second year thereafter."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Corporation Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Initial report is due the year after incorporation or qualification. Reports are then due each second year thereafter."
+                }
+              ],
+              "notes": []
+            }
+          ]
         },
         "Nonprofit Requirement": {
           "title": "Annual Report",
           "frequency": "Biennially",
           "dueDate": "April 1st",
           "stateFee": "{STATE_FEE}",
-          "filingFee": "{SERVICE_FEE}"
+          "filingFee": "{SERVICE_FEE}",
+          "sections": [
+            {
+              "title": "Annual Report",
+              "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Biennially"
+                },
+                {
+                  "label": "Due Date",
+                  "value": "April 1st"
+                },
+                {
+                  "label": "State Fee",
+                  "value": "{STATE_FEE}"
+                },
+                {
+                  "label": "Filing Fee",
+                  "value": "{SERVICE_FEE}"
+                },
+                {
+                  "label": "Note",
+                  "value": "Initial report is due the year after incorporation or qualification. Reports are then due each second year thereafter."
+                }
+              ],
+              "notes": []
+            }
+          ]
         }
       },
       "membersDirectorsOfficers": {
