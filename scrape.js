@@ -365,15 +365,59 @@ async function extractStateData(page) {
                         const entityType = cells[0].textContent.trim();
                         const contentDiv = cells[1].querySelector('.form-control-static .inc_requirement');
                         if (entityType && contentDiv) {
-                            const title = contentDiv.querySelector('h3');
-                            const paragraphs = contentDiv.querySelectorAll('p');
-                            let requirementInfo = { title: title ? title.textContent.trim() : '', frequency: '', dueDate: '', stateFee: '', filingFee: '' };
-                            paragraphs.forEach(p => {
-                                const text = p.textContent.trim();
-                                if (text.includes('Frequency:')) requirementInfo.frequency = text.replace('Frequency:', '').trim();
-                                else if (text.includes('Due Date:')) requirementInfo.dueDate = text.replace('Due Date:', '').trim();
-                                else if (text.includes('State Fee:')) requirementInfo.stateFee = text.replace('State Fee:', '').trim();
-                                else if (text.includes('Filing Fee:')) requirementInfo.filingFee = text.replace('Filing Fee:', '').trim();
+                            // One cell can hold several requirements (CA LLC:
+                            // Statement of Information — Biennially — AND
+                            // California Franchise Tax — Annually). Split it
+                            // into sections at each heading; the old flat
+                            // parse kept the LAST "Frequency:" in the cell, so
+                            // CA LLC read "Annually" and the Franchise Tax and
+                            // "Important" notes were lost.
+                            const KNOWN = { 'frequency': 'frequency', 'due date': 'dueDate', 'state fee': 'stateFee', 'filing fee': 'filingFee' };
+                            const textOf = (el) => {
+                                const clone = el.cloneNode(true);
+                                clone.querySelectorAll('br').forEach((br) => br.replaceWith('\n'));
+                                return clone.textContent.replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').trim();
+                            };
+                            const isHeading = (el) => {
+                                if (/^H[1-6]$/.test(el.tagName)) return true;
+                                // A paragraph that is entirely bold, with no "Label:".
+                                const text = el.textContent.trim();
+                                const bold = el.querySelector('strong, b');
+                                return !!bold && bold.textContent.trim() === text && text && !text.includes(':');
+                            };
+                            const sections = [];
+                            let current = null;
+                            const ensure = () => current || (current = (sections.push({ title: '', fields: [], notes: [] }), sections[sections.length - 1]));
+                            contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li').forEach((el) => {
+                                if (el.closest('li') && el.tagName !== 'LI') return;
+                                const text = textOf(el);
+                                if (!text) return;
+                                if (isHeading(el)) {
+                                    current = { title: text, fields: [], notes: [] };
+                                    sections.push(current);
+                                    return;
+                                }
+                                const m = text.match(/^([A-Za-z][^:\n]{0,40}):\s*([\s\S]*)$/);
+                                if (m) ensure().fields.push({ label: m[1].trim(), value: m[2].trim() });
+                                else ensure().notes.push(text);
+                            });
+                            // Markup we don't recognise (no p/li/headings): fall back
+                            // to reading the cell's lines flat, as before.
+                            if (!sections.length) {
+                                const lines = textOf(contentDiv).split('\n').map((l) => l.trim()).filter(Boolean);
+                                const fallback = { title: contentDiv.querySelector('h3')?.textContent.trim() || '', fields: [], notes: [] };
+                                lines.forEach((line) => {
+                                    const m = line.match(/^([A-Za-z][^:]{0,40}):\s*(.*)$/);
+                                    if (m) fallback.fields.push({ label: m[1].trim(), value: m[2].trim() });
+                                    else if (line !== fallback.title) fallback.notes.push(line);
+                                });
+                                sections.push(fallback);
+                            }
+                            const first = sections[0];
+                            const requirementInfo = { title: first.title, frequency: '', dueDate: '', stateFee: '', filingFee: '', sections };
+                            first.fields.forEach((f) => {
+                                const key = KNOWN[f.label.toLowerCase()];
+                                if (key && !requirementInfo[key]) requirementInfo[key] = f.value;
                             });
                             ongoingFilingRequirements[entityType] = requirementInfo;
                         }
