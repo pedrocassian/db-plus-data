@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-26T17:25:50.709Z",
-  "lastChecked": "2026-10-26T17:25:50.709Z",
+  "lastUpdated": "2026-10-27T13:03:23.169Z",
+  "lastChecked": "2026-10-27T13:03:23.169Z",
   "stateCount": 51,
   "states": {
     "AL": {
@@ -468,9 +468,9 @@
       "ongoingFilingRequirements": {
         "LLC Requirement": {
           "title": "Initial Report",
-          "frequency": "",
+          "frequency": "Biennially",
           "dueDate": "Within 6 months of the date of formation.",
-          "stateFee": "",
+          "stateFee": "{STATE_FEE}",
           "filingFee": "$0",
           "sections": [
             {
@@ -517,9 +517,9 @@
         },
         "Corporation Requirement": {
           "title": "Initial Report",
-          "frequency": "",
+          "frequency": "Biennially",
           "dueDate": "Within 6 months of the date of formation.",
-          "stateFee": "",
+          "stateFee": "{STATE_FEE}",
           "filingFee": "$0",
           "sections": [
             {
@@ -566,9 +566,9 @@
         },
         "Nonprofit Requirement": {
           "title": "Initial Report",
-          "frequency": "",
+          "frequency": "Biennially",
           "dueDate": "Within 6 months of the date of formation.",
-          "stateFee": "",
+          "stateFee": "{STATE_FEE}",
           "filingFee": "$0",
           "sections": [
             {
@@ -11751,9 +11751,9 @@
         },
         "Dissolution": {
           "bizee": "$199",
-          "llc": "$21",
-          "corp": "$22",
-          "npc": "$22"
+          "llc": "$25",
+          "corp": "$25",
+          "npc": "$25"
         },
         "Sales Tax Registration": {
           "bizee": "$0",
@@ -12545,7 +12545,7 @@
         },
         "Corporations": {
           "normal": "4 Weeks",
-          "expedited": "3 Business Day"
+          "expedited": "4 Business Day"
         },
         "Nonprofit": {
           "normal": "4 Weeks",
@@ -12761,19 +12761,18 @@
         },
         "Nonprofit Requirement": {
           "title": "Public Information & Franchise Tax Report",
-          "frequency": "",
+          "frequency": "Both reports are due between January 1st and no later than May 15th.",
           "dueDate": "",
           "stateFee": "",
           "filingFee": "",
           "sections": [
             {
               "title": "Public Information & Franchise Tax Report",
-              "fields": [],
-              "notes": []
-            },
-            {
-              "title": "FrequencyBoth reports are due between January 1st and no later than May 15th.",
               "fields": [
+                {
+                  "label": "Frequency",
+                  "value": "Both reports are due between January 1st and no later than May 15th."
+                },
                 {
                   "label": "Note",
                   "value": "There is no charge for the Public Information Report. The Franchise Tax Fee is based on the revenue of the Corporation."
@@ -14337,9 +14336,9 @@
         },
         "Amendment": {
           "bizee": "$99",
-          "llc": "$40",
-          "corp": "$40",
-          "npc": "$40"
+          "llc": "$42",
+          "corp": "$42",
+          "npc": "$42"
         },
         "Change of Registered Agent": {
           "bizee": "$99",
@@ -14349,9 +14348,9 @@
         },
         "Assumed Business Name": {
           "bizee": "$299",
-          "llc": "$15",
-          "corp": "$15",
-          "npc": "$15"
+          "llc": "$16",
+          "corp": "$16",
+          "npc": "$16"
         },
         "Good Standing": {
           "bizee": "$99",
@@ -14361,9 +14360,9 @@
         },
         "Annual Report": {
           "bizee": "$129",
-          "llc": "$26",
-          "corp": "$26",
-          "npc": "$26"
+          "llc": "$27",
+          "corp": "$27",
+          "npc": "$27"
         },
         "Reinstatement": {
           "bizee": "$199",
@@ -14373,9 +14372,9 @@
         },
         "Dissolution": {
           "bizee": "$199",
-          "llc": "$20",
-          "corp": "$20",
-          "npc": "$20"
+          "llc": "$21",
+          "corp": "$21",
+          "npc": "$21"
         },
         "Sales Tax Registration": {
           "bizee": "$0",
